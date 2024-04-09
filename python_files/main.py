@@ -2,22 +2,15 @@ import os
 import pandas as pd
 import time
 from dotenv import load_dotenv
-from classes import Ontology, Neo4jConnection
-from anomaly_detection import AnomalyReasoner
+from classes.neo4j_connection import Neo4jConnection
+from classes.ontology import Ontology
+from classes.reasoner import AnomalyReasoner
 
 load_dotenv()
 URI = 'bolt://localhost:7687'
 USER = os.getenv("NEO4J_USER_NAME")
 PASSWORD = os.getenv("NEO4J_PASSWD")
 AUTH = (os.getenv("NEO4J_USER_NAME"), os.getenv("NEO4J_PASSWD"))
-
-
-# Instantiate Neo4j
-
-# Inject Ontology
-
-
-# Send the anomalous cycle data to Reasoner class
 
 
 
@@ -74,13 +67,37 @@ def get_min_max_data(filepath):
     return data_list
 
 
+
+def get_formatted_data(filepath):
+    """
+    Return the data in the following format
+    [ {'cycle_state': <value>, 
+    'sensor_variables':{'I_R01_Gripper_Load':<value>, 
+                        'I_R02_Gripper_Load':<value>, 
+                        'I_R04_Gripper_Load':<value>,...}
+    }, {'cycle_state':<value>, "",..}..]
+    # number of dict = number of rows in csv/df
+    """
+    data_list = []
+    df = pd.read_csv(filepath)
+    headers = df.columns.tolist()
+    for i in range(0,len(df)):
+        pass
+
+    return data_list
+
+
+
+
     
 def main():
+    # Instantiate Neo4j connection
     neo4j_obj = Neo4jConnection(uri=URI, 
                        user=USER,
                        pwd=PASSWORD)
-    ontology_filepath = "ontology.txt"
-    min_max_filepath = '../mfg-data/cycle_state_values.csv'
+    # Specify the filepaths
+    ontology_filepath = "ontology.txt" # filepath that consists of ontology creation query
+    min_max_filepath = '../mfg-data/cycle_state_values.csv' # filepath that consists of min and max values of sensors as per cycle state
     
     # create an object for ontology class
     ont = Ontology()
@@ -92,11 +109,14 @@ def main():
     # update ontology with min and max values
     # get the data in required format
     min_max_data = get_min_max_data(filepath=min_max_filepath)
+    
     # call the update function
     res = ont.update_min_max(neo4j_obj, min_max_data)
     print("Result of Ontology Update:", res)
 
     # get the data for anomalous cycle
+    anomalous_data_filepath = ''
+    anomalous_data = get_formatted_data()
 
     # get the explanation for anomaly
     # Instantiate Reasoner class

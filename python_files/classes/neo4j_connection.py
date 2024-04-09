@@ -1,16 +1,6 @@
 from neo4j import GraphDatabase
-import os
-import pandas as pd
-import time
-from dotenv import load_dotenv
 
-load_dotenv()
-URI = 'bolt://localhost:7687'
-USER = os.getenv("NEO4J_USER_NAME")
-PASSWORD = os.getenv("NEO4J_PASSWD")
-AUTH = (os.getenv("NEO4J_USER_NAME"), os.getenv("NEO4J_PASSWD"))
-
-
+# class to establish connection to neo4j
 class Neo4jConnection:
     def __init__(self, uri, user, pwd):
         self.__uri = uri
@@ -48,27 +38,3 @@ class Neo4jConnection:
                 print(li)
                 result=self.query(li, parameters=None, db=None)
                 print(result)
-
-class Ontology:
-    def __init__(self):
-        pass
-
-    def create(self, filepath, conn):
-        f = open(filepath, "r")
-        insert_query = f.read()
-        res = conn.query(insert_query)
-        return res
-
-def main():
-    conn = Neo4jConnection(uri=URI, 
-                       user=USER,
-                       pwd=PASSWORD)
-    # test connection
-    res=conn.query('MATCH (n) RETURN count(n)')
-    print(res)
-    filepath = "ontology.txt"
-    ont = Ontology()
-    res = ont.create(filepath, conn)
-    print(res)
-
-main()
