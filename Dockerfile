@@ -2,6 +2,7 @@ FROM jupyter/datascience-notebook
 # FROM nvidia/cuda:12.0.1-base-ubuntu20.04
 # FROM tensorflow/tensorflow:latest-gpu-jupyter
 
+
 COPY requirements.txt ./
 RUN pip install -U pip
 RUN pip install --no-cache-dir -r requirements.txt
