@@ -152,26 +152,39 @@ def main(output_filepath):
     it for explanations
     """
 
-    # get the data for anomalous cycle
-    # NOTE: Input file must contain only the cycle state and sensor values
-    anomalous_data_filepath = '../mfg-data/anomaly_data/fadi2.csv'
-    anomalous_data = get_formatted_data(anomalous_data_filepath)
+    # # get the data for anomalous cycle
+    # # NOTE: Input file must contain only the cycle state and sensor values
+    # anomalous_data_filepath = '../mfg-data/anomaly_data/fadi2.csv'
+    # anomalous_data = get_formatted_data(anomalous_data_filepath)
 
 
-    # get the explanation for anomaly
-    # Instantiate Reasoner class
-    reasoner = AnomalyReasoner()
-    exp_dict = reasoner.get_explanation(neo4j_obj, anomalous_data)
+    # # get the explanation for anomaly
+    # # Instantiate Reasoner class
+    # reasoner = AnomalyReasoner()
+    # exp_dict = reasoner.get_explanation(neo4j_obj, anomalous_data)
     
-    # store the values in a csv file
-    df = pd.DataFrame.from_dict(exp_dict)
-    df.to_csv(output_filepath, index=False)
+    # # store the values in a csv file
+    # df = pd.DataFrame.from_dict(exp_dict)
+    # df.to_csv(output_filepath, index=False)
 
 
 main(output_filepath = '../mfg-data/results/fadi2_resoning.csv')
 
 
 
+# ----------------------------------------------------------------------
+# get the min and max values of sensors for each cycle state - CHATHURANGI
+# Instantiate Neo4j connection
+neo4j_obj = Neo4jConnection(uri=URI, 
+                    user=USER,
+                    pwd=PASSWORD)
+# create an object for ontology class
+ont = Ontology()
+cycle_state = 1
+sensor_variable = "I_R03_Gripper_Load"
+values_dict = ont.get_min_max(neo4j_obj, cycle_state, sensor_variable)
+print(values_dict)
+# ---------------------------------------------------------------------
 
 
 
@@ -183,28 +196,3 @@ main(output_filepath = '../mfg-data/results/fadi2_resoning.csv')
 
 
 
-# def test():
-#     neo4j_obj = Neo4jConnection(uri=URI, 
-#                     user=USER,
-#                     pwd=PASSWORD)
-                    
-    # query_str = """
-    #     MATCH path = ((node:Sensor_Value)-[r1]-(m)-[r2]-(l)-[r3]-(t))
-    #     WHERE node.item_name CONTAINS $partial_string
-    #     RETURN node, path
-    # """
-    # parameters = {
-    #     'partial_string':'I_R03_Gripper_Pot'
-    # }
-    # res = neo4j_obj.query(query_str, parameters)
-    # # print(res)
-    # for ele in res:
-    #     print(ele)
-    #     # print
-    #     pass
-
-
-# main()
-
-# List of sensor value
-# check for anomalous values

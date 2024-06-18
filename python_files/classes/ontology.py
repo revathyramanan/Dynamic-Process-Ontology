@@ -103,3 +103,22 @@ class Ontology:
 
 
         return "Functions Added"
+    
+    ####################### FUNCTIONS TO EXPLORE OR ACCESS ONTOLOGY #############
+
+    def get_min_max(self, neo4j_obj, cycle_state, sensor_variable):
+
+        query_string = """
+        MATCH (c:Cycle {cycle_state:$state})-[]-(r:Robot)-[]-(g:Gripper)-[]-(s:Sensor)-[]-(sv:Sensor_Value {item_name:$sensor_variable}) RETURN sv.cycle_state_max, sv.cycle_state_min
+        """
+        parameters = {
+            'state': cycle_state,
+            'sensor_variable': sensor_variable
+        }
+
+        res = neo4j_obj.query(query_string, parameters)
+        if res == []: # if a variable is not present in a given cycle state, return none
+            return {'min': None, 'max': None}
+        else:
+            record_dict = dict(res[0].items())
+            return {'min':record_dict['sv.cycle_state_min'], 'max':record_dict['sv.cycle_state_max']}
