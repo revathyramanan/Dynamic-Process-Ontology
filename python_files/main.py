@@ -123,6 +123,9 @@ def main(output_filepath):
     # create an object for ontology class
     ont = Ontology()
     
+    # First clear the database, then run the tests, load the ontology
+    res = neo4j_obj.query("MATCH (n) DETACH DELETE (n)")
+
     # Inject ontology to Neo4j when empty
     nodes = neo4j_obj.query("MATCH (n) RETURN n")
     if len(nodes) == 0:
@@ -146,7 +149,7 @@ def main(output_filepath):
 
 
 
-    ############## ONTOLOGY USAGE ##########
+    ############## ONTOLOGY USAGE: Fadi's use case ##########
     """
     The following code will generate reasoning. Now that the ontology is created, you can use 
     it for explanations
@@ -169,6 +172,20 @@ def main(output_filepath):
 
 
 main(output_filepath = '../mfg-data/results/fadi2_resoning.csv')
+
+# ---------------------------------------------------------------------
+# CHATHURANGI"S IMAGE USE CASE
+# Instantiate Neo4j connection
+neo4j_obj = Neo4jConnection(uri=URI, 
+                    user=USER,
+                    pwd=PASSWORD)
+# create an object for ontology class
+ont = Ontology()
+
+# open file
+df = pd.read_csv('mfg-data/Chathurangi/final_df_image_detection.csv')
+for i in range(0,len(df)):
+# ---------------------------------------------------------------------
 
 
 
