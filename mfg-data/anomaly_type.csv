@@ -1,0 +1,22 @@
+cycle_state,anomaly_type
+1,NoAnomaly
+2,NoAnomaly
+3,NoAnomaly
+4,NoBody1
+5,NoBody1
+6,"NoBody1, NoBody2"
+7,"NoBody1, NoBody2"
+8,"NoBody1, NoBody2, NoNose"
+9,"NoBody1, NoBody2, NoNose"
+10,"NoBody1, NoBody2, NoNose"
+11,"NoBody1, NoBody2, NoNose"
+12,"NoBody1, NoBody2, NoNose"
+13,"NoBody1, NoBody2, NoNose"
+14,"NoBody1, NoBody2, NoNose"
+15,"NoBody1, NoBody2, NoNose"
+16,"NoBody1, NoBody2, NoNose"
+17,"NoBody1, NoBody2, NoNose"
+18,"NoBody1, NoBody2, NoNose"
+19,"NoBody1, NoBody2, NoNose"
+20,"NoBody1, NoBody2, NoNose"
+21,"NoBody1, NoBody2, NoNose"

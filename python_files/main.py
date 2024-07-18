@@ -111,7 +111,7 @@ def get_cycle_function_data(filepath) -> list[dict]:
 
 
     
-def main(output_filepath):
+def load_ontology():
     # Instantiate Neo4j connection
     neo4j_obj = Neo4jConnection(uri=URI, 
                        user=USER,
@@ -144,34 +144,18 @@ def main(output_filepath):
         # call the required function
         res = ont.add_cycle_functions(neo4j_obj, cycle_function_data)
         print("Adding Cycle Functions:", res)
+
+        # Add anomaly types
+        anomaly_df = pd.read_csv('../mfg-data/anomaly_type.csv')
+        res = ont.add_anomaly_types(neo4j_obj, anomaly_df)
+        print(res)
     else:
         pass
 
+# load_ontology()
 
 
-    ############## ONTOLOGY USAGE: Fadi's use case ##########
-    """
-    The following code will generate reasoning. Now that the ontology is created, you can use 
-    it for explanations
-    """
 
-    # # get the data for anomalous cycle
-    # # NOTE: Input file must contain only the cycle state and sensor values
-    # anomalous_data_filepath = '../mfg-data/anomaly_data/fadi2.csv'
-    # anomalous_data = get_formatted_data(anomalous_data_filepath)
-
-
-    # # get the explanation for anomaly
-    # # Instantiate Reasoner class
-    # reasoner = AnomalyReasoner()
-    # exp_dict = reasoner.get_explanation(neo4j_obj, anomalous_data)
-    
-    # # store the values in a csv file
-    # df = pd.DataFrame.from_dict(exp_dict)
-    # df.to_csv(output_filepath, index=False)
-
-
-main(output_filepath = '../mfg-data/results/fadi2_resoning.csv')
 
 # ---------------------------------------------------------------------
 # CHATHURANGI"S IMAGE USE CASE
@@ -183,10 +167,34 @@ neo4j_obj = Neo4jConnection(uri=URI,
 ont = Ontology()
 
 # open file
-df = pd.read_csv('mfg-data/Chathurangi/final_df_image_detection.csv')
+df = pd.read_csv('../mfg-data/Chathurangi/final_df_image_detection.csv')
+nobody1 = 0
+nobody2 = 0
+nonose = 0
 for i in range(0,len(df)):
-# ---------------------------------------------------------------------
+    cycle_state = df['cycle_state'][i]
+    predicted = df['predicted_label'][i]
+    predicted = predicted.split(",")
+    if "NoBody1" in predicted:
+        nobody1 += 1
+    if "NoBody2" in predicted:
+        nobody2 += 1
+    if "NoNose" in predicted:
+        nonose += 1
+    
+print(nobody1, nobody2, nonose)
 
+    
+    # query_str = """
+    # MATCH (n:Cycle {cycle_state:$state}) RETURN n.anomaly_types
+    # """
+    # parameters = {'state': cycle_state}
+    # res = neo4j_obj.query(query_str, parameters)
+    # data_dict = dict(res[0].items())
+    # print(type(data_dict['n.anomaly_types']))
+    # exit(0)
+    
+# ---------------------------------------------------------------------
 
 
 # ----------------------------------------------------------------------
@@ -203,6 +211,29 @@ values_dict = ont.get_min_max(neo4j_obj, cycle_state, sensor_variable)
 print(values_dict)
 # ---------------------------------------------------------------------
 
+
+
+############## ONTOLOGY USAGE: Fadi's use case ##########
+"""
+The following code will generate reasoning. Now that the ontology is created, you can use 
+it for explanations
+"""
+
+# # get the data for anomalous cycle
+# # NOTE: Input file must contain only the cycle state and sensor values
+# anomalous_data_filepath = '../mfg-data/anomaly_data/fadi2.csv'
+# anomalous_data = get_formatted_data(anomalous_data_filepath)
+
+
+# # get the explanation for anomaly
+# # Instantiate Reasoner class
+# reasoner = AnomalyReasoner()
+# exp_dict = reasoner.get_explanation(neo4j_obj, anomalous_data)
+
+# # store the values in a csv file
+# df = pd.DataFrame.from_dict(exp_dict)
+# output_filepath = '../mfg-data/results/fadi2_resoning.csv'
+# df.to_csv(output_filepath, index=False)
 
 
 

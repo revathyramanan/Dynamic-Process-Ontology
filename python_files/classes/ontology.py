@@ -102,8 +102,31 @@ class Ontology:
             response = neo4j_obj.query(query_str, parameters)
 
 
-        return "Functions Added"
+        return "Cycle state functions Added"
     
+
+    def add_anomaly_types(self, neo4j_obj, data_df):
+        """
+        NoBody1 : Cycle State 4 to 21
+        NoBody2 : Cycle State 6 to 21
+        NoNose : Cycle State 8 to 21
+        """
+        for i in range(0,len(data_df)):
+            cycle_state = data_df['cycle_state'][i]
+            anomaly = data_df['anomaly_type'][i]
+            anomalies = anomaly.split(",")
+            query_str = """
+            MATCH (n:Cycle {cycle_state:$state}) SET n.anomaly_types = $anomaly_list
+            """
+            parameters = {'state': cycle_state, 'anomaly_list':anomalies}
+            response = neo4j_obj.query(query_str, parameters)
+        
+        return "Anomaly types added"
+        
+        
+
+
+
     ####################### FUNCTIONS TO EXPLORE OR ACCESS ONTOLOGY #############
 
     def get_min_max(self, neo4j_obj, cycle_state, sensor_variable):
