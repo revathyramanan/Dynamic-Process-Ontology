@@ -1,12 +1,21 @@
 ## Process Ontology for Future Factories Assembly Cell
+In this repository, we propose Dynamic Process Ontology (DPO) designed and implemented for (rocket assembly testbed)[] where four robots are involved to assembly four rocket body parts. During this assembly process, several anomalies could happen which can be detected or predicted using several machine or deep learning models. The Dynamic Process Ontology aids us in analysing these anomalies further by answering questions such as (i) which sensor produced anomalous values and what are the expected values of this sensor? (ii) to which robot the anomalous sensor is attached to? (iii) what was the function of the robot when the anomaly happened? (iv) till which stage in the assembly line the process ran successfully?
+
+Unlike conventional ontologies that consist of interlinked web of concepts, the proposed process ontology captures temporal attribute of assembly line. The ontology is built based on the 21 cycle states which represents a step-by-step stage in the assembly process. Each cycle state consists of (i) respective robot that is involved in the cycle state along with its function specific to this cycle state in addition to other properties (ii) corresponding sensors and their expected normal range as per the cycle state along with other properties (iii) expected anomalies that can happen in a given cycle state. The dynamic nature of the ontology allows updating the properties of entities if the sensors or equipment need to be calibrated for each experiment. A snapshot of the proposed Dynamic Process Ontology can be found below.
+
+![A Snapshot of cycle state 4 and its properties](path/to/image)
+![Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4](path/to/image)
+![An overview of the ontology](path/to/image)
 
 
-### Installing Docker
-* Download the most recent version of docker as per your OS from here - https://docs.docker.com/desktop/release-notes/
+
+
+
 
 
 ### Steps to run
-* Change the $USER and $UID in .env file. To find out the values `echo $USER` and `echo $UID` from your command terminal
+* Download the most recent version of docker as per your OS from here - https://docs.docker.com/desktop/release-notes/ and install the docker on your system
+* In the project folder which is a cloned version of this git repository, change the $USER and $UID in .env file. To find out the values `echo $USER` and `echo $UID` from your command terminal
 * Create two folders insider the project folder 
 * * A folder to save the graph database (graph_data)
 * * A folder where the original raw data files are stored (This doesn't exist for now. So create an empty folder named raw_files)
