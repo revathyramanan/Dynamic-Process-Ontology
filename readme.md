@@ -11,9 +11,9 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
 <div style="text-align: center; margin-bottom: 20px;">
   <figure style='display: table'>
   <img src='Figures/ordered-ontology.png'>
-  <figcaption style='display: table-caption; caption-side: bottom;'>
+  <p>
     An overview of the ontology where the green nodes are cycle states from 1 to 21, red nodes are robots, purple nodes are sensors of respective robots.
-  </figcaption>
+  </p>
 </figure>
 </div>
 
@@ -37,8 +37,9 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
 <div style="text-align: center; margin-bottom: 20px;">
   <figure style='display: table'>
     <img src="Figures/potentiometer.png" style="width: 50%; border: 2px solid #000;">
-    <figcaption style='display: table-caption; caption-side: bottom;'>
-    Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required.</figcaption>
+    <p>
+    Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required.
+    </p>
   </figure>
 </div>
 
