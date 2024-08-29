@@ -3,11 +3,24 @@ In this repository, we propose Dynamic Process Ontology (DPO) designed and imple
 
 Unlike conventional ontologies that consist of interlinked web of concepts, the proposed process ontology captures temporal attribute of assembly line. The ontology is built based on the 21 cycle states which represents a step-by-step stage in the assembly process. Each cycle state consists of (i) respective robot that is involved in the cycle state along with its function specific to this cycle state in addition to other properties (ii) corresponding sensors and their expected normal range as per the cycle state along with other properties (iii) expected anomalies that can happen in a given cycle state. The dynamic nature of the ontology allows updating the properties of entities if the sensors or equipment need to be calibrated for each experiment. A snapshot of the proposed Dynamic Process Ontology can be found below.
 
+<figure style="text-align: center;">
 <img src="Figures/ordered-ontology.png" alt="An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots." width="100%"/>
+<figcaption style="text-align: center;">An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots.</figcaption>
+</figure>
 
+<brs>
+
+<figure style="text-align: center;">
 <img src="Figures/cycle_state.png" alt="A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types" width="50%"/>
+<figcaption style="text-align: center;">A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types</figcaption>
+</figure>
 
+<br>
+
+<figure style="text-align: center;">
 <img src="Figures/potentiometer.png" alt="Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required." width="50%"/>
+<figcaption style="text-align: center;">Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required.</figcaption>
+</figure>
 
 
 
