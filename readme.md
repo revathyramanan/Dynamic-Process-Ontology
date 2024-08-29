@@ -5,10 +5,26 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
 
 <br>
 <br>
+
+
+
 <div style="text-align: center; margin-bottom: 20px;">
-  <figure style="display: inline-block; margin: 0;">
-    <img src="Figures/ordered-ontology.png" alt="An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots." style="width: 100%; border: 2px solid #000;">
-    <figcaption style="text-align: center; margin-top: 10px;">An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots.</figcaption>
+  <figure style='display: table'>
+  <img src='Figures/ordered-ontology.png'>
+  <figcaption style='display: table-caption; caption-side: bottom;'>
+    An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots.
+  </figcaption>
+</figure>
+</div>
+
+<br>
+<br>
+
+<div style="text-align: center; margin-bottom: 20px;">
+  <figure style='display: table'>
+    <img src="Figures/cycle_state.png" style="width: 50%; border: 2px solid #000;">
+    <figcaption style='display: table-caption; caption-side: bottom;'>
+    A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types.</figcaption>
   </figure>
 </div>
 
@@ -16,19 +32,10 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
 <br>
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <figure style="display: inline-block; margin: 0;">
-    <img src="Figures/cycle_state.png" alt="A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types." style="width: 50%; border: 2px solid #000;">
-    <figcaption style="text-align: center; margin-top: 10px;">A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types.</figcaption>
-  </figure>
-</div>
-
-<br>
-<br>
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <figure style="display: inline-block; margin: 0;">
-    <img src="Figures/potentiometer.png" alt="Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required." style="width: 50%; border: 2px solid #000;">
-    <figcaption style="text-align: center; margin-top: 10px;">Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required.</figcaption>
+  <figure style='display: table'>
+    <img src="Figures/potentiometer.png" style="width: 50%; border: 2px solid #000;">
+    <figcaption style='display: table-caption; caption-side: bottom;'>
+    Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required.</figcaption>
   </figure>
 </div>
 
