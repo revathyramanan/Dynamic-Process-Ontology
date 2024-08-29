@@ -3,9 +3,9 @@ In this repository, we propose Dynamic Process Ontology (DPO) designed and imple
 
 Unlike conventional ontologies that consist of interlinked web of concepts, the proposed process ontology captures temporal attribute of assembly line. The ontology is built based on the 21 cycle states which represents a step-by-step stage in the assembly process. Each cycle state consists of (i) respective robot that is involved in the cycle state along with its function specific to this cycle state in addition to other properties (ii) corresponding sensors and their expected normal range as per the cycle state along with other properties (iii) expected anomalies that can happen in a given cycle state. The dynamic nature of the ontology allows updating the properties of entities if the sensors or equipment need to be calibrated for each experiment. A snapshot of the proposed Dynamic Process Ontology can be found below.
 
-![A Snapshot of cycle state 4 and its properties](./Figures/cycle_state.png)
-![Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4](./Figures/potentiometer.png)
-![An overview of the ontology](./Figures/ordered-ontology.png)
+![A Snapshot of cycle state 4 and its properties](Figures/cycle_state.png)
+![Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4](Figures/potentiometer.png)
+![An overview of the ontology](Figures/ordered-ontology.png)
 
 
 
