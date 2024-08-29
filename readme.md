@@ -12,7 +12,7 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
   <figure style='display: table'>
   <img src='Figures/ordered-ontology.png'>
   <figcaption style='display: table-caption; caption-side: bottom;'>
-    An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots.
+    An overview of the ontology where the green nodes are cycle states from 1 to 21, red nodes are robots, purple nodes are sensors of respective robots.
   </figcaption>
 </figure>
 </div>
@@ -23,9 +23,12 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
 <div style="text-align: center; margin-bottom: 20px;">
   <figure style='display: table'>
     <img src="Figures/cycle_state.png" style="width: 50%; border: 2px solid #000;">
-    <figcaption style='display: table-caption; caption-side: bottom;'>
-    A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types.</figcaption>
+    <!-- <figcaption style='display: table-caption; caption-side: bottom;'>
+    A</figcaption> -->
   </figure>
+  <p>
+   A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types.
+   </p>
 </div>
 
 <br>
