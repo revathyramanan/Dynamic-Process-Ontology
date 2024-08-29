@@ -5,36 +5,35 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
 
 <br>
 <br>
-<div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;">
-  <figure style="margin: 0; text-align: center;">
-    <img src="Figures/ordered-ontology.png" alt="An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots." style="width: 100%; height: auto; border: 2px solid #000;">
-    <figcaption style="text-align: center; display: block; margin-top: 10px;">An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots.</figcaption>
+<div style="text-align: center; margin-bottom: 20px;">
+  <figure style="display: inline-block; margin: 0;">
+    <img src="Figures/ordered-ontology.png" alt="An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots." style="width: 100%; border: 2px solid #000;">
+    <figcaption style="text-align: center; margin-top: 10px;">An overview of the ontology where the green nodes are cycle states, red nodes are robots, purple nodes are sensors of respective robots.</figcaption>
   </figure>
 </div>
 
 <br>
 <br>
 
-<div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;">
-  <figure style="margin: 0; text-align: center;">
-    <img src="Figures/cycle_state.png" alt="A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types." style="width: 50%; height: auto; border: 2px solid #000; display: block; margin: 0 auto;">
-    <figcaption style="text-align: center; display: block; margin-top: 10px;">A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types.</figcaption>
+<div style="text-align: center; margin-bottom: 20px;">
+  <figure style="display: inline-block; margin: 0;">
+    <img src="Figures/cycle_state.png" alt="A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types." style="width: 50%; border: 2px solid #000;">
+    <figcaption style="text-align: center; margin-top: 10px;">A Snapshot of cycle state 4 and its properties. It consists of function of the robot in this cycle state along with possible anomaly types.</figcaption>
   </figure>
 </div>
 
 <br>
 <br>
 
-<div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;">
-  <figure style="margin: 0; text-align: center;">
-    <img src="Figures/potentiometer.png" alt="Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required." style="width: 50%; height: auto; border: 2px solid #000; display: block; margin: 0 auto;">
-    <figcaption style="text-align: center; display: block; margin-top: 10px;">Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required.</figcaption>
+<div style="text-align: center; margin-bottom: 20px;">
+  <figure style="display: inline-block; margin: 0;">
+    <img src="Figures/potentiometer.png" alt="Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required." style="width: 50%; border: 2px solid #000;">
+    <figcaption style="text-align: center; margin-top: 10px;">Properties of the sensor potentiometer of Robot-2 that is involved in cycle state 4. The minimum and maximum values can be dynamically updated as per the calibration of experimentation set up. The values of other properties can also be changed as required.</figcaption>
   </figure>
 </div>
 
 <br>
 <br>
-
 
 
 
