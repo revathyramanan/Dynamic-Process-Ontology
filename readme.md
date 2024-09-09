@@ -49,10 +49,13 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
 ### Applications
 #### User-level Explanations for Anomaly Predictions
 Currently, the ontology is integrated as a part of Neurosymbolic Multimodal Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines. 
-
+<!-- 
 <div align="center">
   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=kg6zE9yCGlQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+</div> -->
+
+[![Watch the video](https://img.youtube.com/vi/kg6zE9yCGlQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=kg6zE9yCGlQ)
+
 
 
 __Resources__
