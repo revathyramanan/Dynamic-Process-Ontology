@@ -46,6 +46,21 @@ Unlike conventional ontologies that consist of interlinked web of concepts, the 
 <br>
 <br>
 
+### Applications
+#### User-level Explanations for Anomaly Predictions
+Currently, the ontology is integrated as a part of Neurosymbolic Multimodal Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines. 
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=kg6zE9yCGlQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+__Resources__
+* Link to related Github Pages:https://github.com/smtmnfg/NSF-MAP=
+* For more information about our smart manufacturing project, visit: https://lnkd.in/gDztMM9J
+* For Neurosymbolic AI project, visit: https://wiki.aiisc.ai/index.php?title...
+
+__Acknowledgement__
+This work was supported in part by NSF grants #2119654, “RII Track 2 FEC: Enabling Factory to Factory (F2F) Networking for Future Manufacturing” and SCRA grant “Enabling Factory to Factory (F2F) Networking for Future Manufacturing across South Carolina”. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the NSF.
 
 
 
