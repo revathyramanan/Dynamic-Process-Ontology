@@ -222,7 +222,7 @@
 
                 table.innerHTML = "";
                 for (const key in d) {
-                    if (!["x", "y", "vx", "vy", "index", "fx", "fy"].includes(key)) {
+                    if (!["x", "y", "vx", "vy", "index", "fx", "fy", "color"].includes(key)) {
                         const row = document.createElement("tr");
                         row.innerHTML = `<td>${key}</td><td>${d[key]}</td>`;
                         table.appendChild(row);
