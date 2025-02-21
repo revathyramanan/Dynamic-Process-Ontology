@@ -109,45 +109,81 @@
     </div>
 
     <script>
+        // Custom colors based on node type
+        const customColors = {
+            "Cycle": "#FF5733",
+            "Gripper": "#33FF57",
+            "Marker": "#3388FF",
+            "Robot": "#F4D03F",
+            "Sensor": "#8E44AD",
+            "Sensor_Value": "#1ABC9C",
+            "default": "#CCCCCC"
+        };
+
+        // Default node color
+        const defaultColor = "#4a90e2";
+
         // Load JSON Data
         d3.json("d3_graph.json").then(function(graph) {
-            const width = document.getElementById("graph-container").offsetWidth;
-            const height = document.getElementById("graph-container").offsetHeight;
-            
-            const svg = d3.select("svg")
-                          .attr("width", width)
-                          .attr("height", height)
-                          .call(d3.zoom().scaleExtent([0.5, 3]).on("zoom", (event) => {
-                              svg.attr("transform", event.transform);
-                          }))
-                          .append("g");
+            const svg = d3.select("svg");
+            const width = +svg.node().getBoundingClientRect().width || 800;
+            const height = +svg.node().getBoundingClientRect().height || 600;
+
+            const zoom = d3.zoom()
+                .scaleExtent([0.05, 10])
+                .on("zoom", (event) => {
+                    g.attr("transform", event.transform);
+                });
+
+            svg.call(zoom);
+
+            const g = svg.append("g");
+
+            // Ensure links connect correctly
+            graph.links.forEach(link => {
+                if (typeof link.source === 'object') link.source = link.source.id;
+                if (typeof link.target === 'object') link.target = link.target.id;
+            });
 
             const simulation = d3.forceSimulation(graph.nodes)
-                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
-                .force("charge", d3.forceManyBody().strength(-300))
+                .force("link", d3.forceLink(graph.links)
+                    .id(d => d.id)
+                    .distance(link => link.length || 40)) // Reduce distance for closer links
+                .force("charge", d3.forceManyBody().strength(-60)) // Adjust for compact graphs
                 .force("center", d3.forceCenter(width / 2, height / 2));
 
-            const link = svg.append("g")
+            const link = g.append("g")
                 .selectAll("line")
                 .data(graph.links)
                 .enter().append("line")
                 .attr("class", "link")
-                .attr("stroke-width", 2);
+                .attr("stroke", "#999")
+                .attr("stroke-opacity", 0.6)
+                .attr("stroke-width", 1)
+                .attr("marker-end", "url(#end)");
 
-            const node = svg.append("g")
+            const node = g.append("g")
                 .selectAll("circle")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("class", "node")
-                .attr("r", 10)
-                .attr("fill", d => d.color)
+                .attr("r", 15)
+                .attr("fill", d => customColors[d.type] || defaultColor) // Assign colors based on type
                 .call(d3.drag()
                     .on("start", dragstarted)
                     .on("drag", dragged)
-                    .on("end", dragended));
+                    .on("end", dragended))
+                .on("click", showNodeCard);
 
-            node.append("title")
-                .text(d => `Type: ${d.type}\nID: ${d.id}`);
+            // Add floating labels next to nodes
+            const floatingText = g.append("g")
+                .selectAll("text")
+                .data(graph.nodes)
+                .enter().append("text")
+                .attr("font-size", 10)
+                .attr("dy", -10)
+                .attr("text-anchor", "middle")
+                .text(d => d.type) // Display node type
+                .attr("pointer-events", "none"); // Prevent interference with dragging
 
             simulation.on("tick", () => {
                 link.attr("x1", d => d.source.x)
@@ -157,6 +193,9 @@
 
                 node.attr("cx", d => d.x)
                     .attr("cy", d => d.y);
+
+                floatingText.attr("x", d => d.x)
+                    .attr("y", d => d.y - 20);
             });
 
             function dragstarted(event, d) {
@@ -177,35 +216,22 @@
             }
 
             // Show formatted node info card on click
-            node.on("click", function(event, d) {
+            function showNodeCard(event, d) {
                 const infoBox = document.getElementById("node-info");
                 const table = document.getElementById("node-properties");
 
-                // Clear old properties
                 table.innerHTML = "";
-
-                // Add properties dynamically
                 for (const key in d) {
-                    if (key !== "x" && key !== "y" && key !== "vx" && key !== "vy" && key !== "index") {
+                    if (!["x", "y", "vx", "vy", "index", "fx", "fy"].includes(key)) {
                         const row = document.createElement("tr");
-
-                        const keyCell = document.createElement("td");
-                        keyCell.textContent = key;
-                        row.appendChild(keyCell);
-
-                        const valueCell = document.createElement("td");
-                        valueCell.textContent = d[key];
-                        row.appendChild(valueCell);
-
+                        row.innerHTML = `<td>${key}</td><td>${d[key]}</td>`;
                         table.appendChild(row);
                     }
                 }
-
                 infoBox.style.display = "block";
-            });
+            }
 
         }).catch(error => console.error("Error loading JSON:", error));
-
     </script>
 
 </body>
