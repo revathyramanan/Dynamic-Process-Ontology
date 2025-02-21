@@ -20,13 +20,9 @@
             font-size: 24px;
         }
 
-        #controls {
-            margin-bottom: 10px;
-        }
-
         #graph-container {
             width: 100vw;
-            height: 80vh;
+            height: 85vh;
             border: 1px solid #ddd;
             position: relative;
         }
@@ -50,35 +46,66 @@
         #node-info {
             position: absolute;
             top: 10px;
-            left: 10px;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 10px;
+            right: 10px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px;
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             display: none;
-            max-width: 300px;
+            width: 250px;
+            max-height: 400px;
+            overflow-y: auto;
         }
 
-        button {
-            margin: 5px;
-            padding: 8px 12px;
-            font-size: 14px;
-            cursor: pointer;
+        #node-info h3 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
         }
+
+        #node-info table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        #node-info table td {
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+            word-break: break-word;
+        }
+
+        #node-info table td:first-child {
+            font-weight: bold;
+            color: #555;
+            width: 40%;
+        }
+
+        #close-info {
+            position: absolute;
+            top: 5px;
+            right: 8px;
+            background: none;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            color: red;
+        }
+
     </style>
 </head>
 <body>
 
     <h2>Dynamic Process Ontology</h2>
 
-    <div id="controls">
-        <button onclick="zoomIn()">Zoom In</button>
-        <button onclick="zoomOut()">Zoom Out</button>
-    </div>
-
     <div id="graph-container">
         <svg></svg>
-        <div id="node-info"></div>
+        <div id="node-info">
+            <button id="close-info" onclick="document.getElementById('node-info').style.display='none'">✖</button>
+            <h3>Node Details</h3>
+            <table id="node-properties"></table>
+        </div>
     </div>
 
     <script>
@@ -119,7 +146,6 @@
                     .on("drag", dragged)
                     .on("end", dragended));
 
-            // Node label on hover
             node.append("title")
                 .text(d => `Type: ${d.type}\nID: ${d.id}`);
 
@@ -150,23 +176,36 @@
                 d.fy = null;
             }
 
-            // Show node info card on click
+            // Show formatted node info card on click
             node.on("click", function(event, d) {
                 const infoBox = document.getElementById("node-info");
-                infoBox.innerHTML = `<strong>Node Details:</strong><br>Type: ${d.type}<br>ID: ${d.id}<br>Properties: ${JSON.stringify(d, null, 2)}`;
+                const table = document.getElementById("node-properties");
+
+                // Clear old properties
+                table.innerHTML = "";
+
+                // Add properties dynamically
+                for (const key in d) {
+                    if (key !== "x" && key !== "y" && key !== "vx" && key !== "vy" && key !== "index") {
+                        const row = document.createElement("tr");
+
+                        const keyCell = document.createElement("td");
+                        keyCell.textContent = key;
+                        row.appendChild(keyCell);
+
+                        const valueCell = document.createElement("td");
+                        valueCell.textContent = d[key];
+                        row.appendChild(valueCell);
+
+                        table.appendChild(row);
+                    }
+                }
+
                 infoBox.style.display = "block";
             });
 
         }).catch(error => console.error("Error loading JSON:", error));
 
-        // Zoom In and Zoom Out
-        function zoomIn() {
-            d3.select("svg").transition().duration(500).call(d3.zoom().scaleBy, 1.2);
-        }
-
-        function zoomOut() {
-            d3.select("svg").transition().duration(500).call(d3.zoom().scaleBy, 0.8);
-        }
     </script>
 
 </body>
