@@ -1,0 +1,2284 @@
+{
+    "nodes": [
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:155",
+            "type": "Marker",
+            "color": "#3388FF",
+            "marker_name": "Start"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:156",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 1,
+            "anomaly_types": [
+                "NoAnomaly"
+            ],
+            "cycle_function": "Robot-1 Picks Tray from MHS"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:157",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 2,
+            "anomaly_types": [
+                "NoAnomaly"
+            ],
+            "cycle_function": "Robot-1 Places Tray on Conveyor"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:158",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 3,
+            "anomaly_types": [
+                "NoAnomaly"
+            ],
+            "cycle_function": "Robot-1 Goes Back to Home Position and Conveyors On"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:159",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 4,
+            "anomaly_types": [
+                "NoBody1"
+            ],
+            "cycle_function": "Robot-2 Picks Body 1 from Conveyor"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:160",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 5,
+            "anomaly_types": [
+                "NoBody1"
+            ],
+            "cycle_function": "Robot-2 Places Body 1 on local station"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:161",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 6,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2"
+            ],
+            "cycle_function": "Robot-2 Picks Body 2 from Conveyor"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:162",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 7,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2"
+            ],
+            "cycle_function": "Robot-2 Places Body 2 on local station"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:163",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 8,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-2 and Robot-3 Assemble Rocket Together"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:164",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 9,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Conveyors move assembled rocket to Robot-4 and Robot-4 picks up tray"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:165",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 10,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 places tray on fixture"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:166",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 11,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Disassembles Rocket's Nose"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:167",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 12,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Disassembles Rocket Body 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:168",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 13,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Disassembles Rocket Body 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:169",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 14,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Disassembles Rocket's Tail"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:170",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 15,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Places Rocket's Tail Back on Tray"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:171",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 16,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Places Rocket's Nose Back on Tray"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:172",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 17,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Places Rocket Body 1 Back on Tray"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:173",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 18,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Places Rocket Body 2 Back on Tray"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:174",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 19,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Picks Disassembled Tray"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:175",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 20,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Places Tray on Material Handling Station(MHS)"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:176",
+            "type": "Cycle",
+            "color": "#FF5733",
+            "cycle_state": 21,
+            "anomaly_types": [
+                "NoBody1",
+                " NoBody2",
+                " NoNose"
+            ],
+            "cycle_function": "Robot-4 Goes Back to Home Position"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:177",
+            "type": "Marker",
+            "color": "#3388FF",
+            "marker_name": "End"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:179",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Picks up the tray",
+            "item_spec": "3D Printed",
+            "item_name": "Gripper 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:178",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:180",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "item_name": "Robot 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:181",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:182",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "4500 ",
+            "cycle_state_max": " 12000",
+            "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
+            "item_name": "I_R01_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:183",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "0 ",
+            "cycle_state_max": " 1000",
+            "description": "The analog output signal of the load cell on the Robot 1 gripper ",
+            "item_name": "I_R01_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:184",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "item_name": "Robot 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:185",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Picks up the tray",
+            "item_spec": "3D Printed",
+            "item_name": "Gripper 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:186",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:187",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:188",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "11000",
+            "cycle_state_max": "12000",
+            "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
+            "item_name": "I_R01_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:189",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "0 ",
+            "cycle_state_max": " 1000",
+            "description": "The analog output signal of the load cell on the Robot 1 gripper ",
+            "item_name": "I_R01_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:191",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:190",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "4500",
+            "cycle_state_max": "12000",
+            "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
+            "item_name": "I_R01_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:192",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Picks up the tray",
+            "item_spec": "3D Printed",
+            "item_name": "Gripper 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:193",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "item_name": "Robot 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:194",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 1"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:195",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "0 ",
+            "cycle_state_max": " 1000",
+            "description": "The analog output signal of the load cell on the Robot 1 gripper ",
+            "item_name": "I_R01_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:196",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "item_spec": "Yaskawa six-axis GP8",
+            "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+            "item_name": "Robot 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:197",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Tension grips the two body parts ",
+            "item_spec": "3D Printed",
+            "item_name": "Gripper 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:198",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:199",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "6400",
+            "cycle_state_max": "12000",
+            "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:200",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:201",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "1200",
+            "cycle_state_max": "1400",
+            "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:202",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "item_spec": "Yaskawa six-axis GP8",
+            "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+            "item_name": "Robot 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:203",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Tension grips the two body parts ",
+            "item_spec": "3D Printed",
+            "item_name": "Gripper 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:204",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:205",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "6000",
+            "cycle_state_max": "12000",
+            "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:206",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:207",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "1200",
+            "cycle_state_max": "1400",
+            "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:208",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "item_spec": "Yaskawa six-axis GP8",
+            "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+            "item_name": "Robot 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:209",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Tension grips the two body parts ",
+            "item_spec": "3D Printed",
+            "item_name": "Gripper 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:210",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:211",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "6000",
+            "cycle_state_max": "12000",
+            "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:212",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:213",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "1200",
+            "cycle_state_max": "1400",
+            "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:214",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "item_spec": "Yaskawa six-axis GP8",
+            "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+            "item_name": "Robot 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:215",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Tension grips the two body parts ",
+            "item_spec": "3D Printed",
+            "item_name": "Gripper 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:216",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:217",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "6000",
+            "cycle_state_max": "12000",
+            "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:218",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:219",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "1200",
+            "cycle_state_max": "1400",
+            "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:220",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Assembles all four rocket parts",
+            "item_spec": "Yaskawa six-axis GP8",
+            "item_name": "Robot 3"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:221",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "item_spec": "Yaskawa six-axis GP8",
+            "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+            "item_name": "Robot 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:222",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Tension grips the two body parts ",
+            "item_spec": "3D Printed",
+            "item_name": "Gripper 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:223",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:224",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "6000",
+            "cycle_state_max": "12000",
+            "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:225",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 2"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:226",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "1200",
+            "cycle_state_max": "1400",
+            "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+            "item_name": "I_R02_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:227",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 3"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:228",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "item_name": "Potentiometer 3"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:229",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "2200",
+            "cycle_state_max": "13000",
+            "description": "The analog output signal of the potentiometer on the Robot 3 gripper ",
+            "item_name": "I_R03_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:230",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load cell 3"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:231",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "1300",
+            "cycle_state_max": "11000",
+            "description": "The analog output signal of the load cell on the Robot 3 gripper ",
+            "item_name": "I_R03_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:232",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:233",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:234",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:235",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "8000",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:236",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:237",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:238",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:239",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:240",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:241",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "7100",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:242",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:243",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:244",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:245",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:246",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:247",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "11400",
+            "cycle_state_max": "13300",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:248",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:249",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:250",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:251",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:252",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:253",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "7800",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:254",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:255",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:256",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:257",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:258",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:259",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "7100",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:260",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:261",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:262",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:263",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:264",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:265",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "7100",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:266",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:267",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:268",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:269",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:270",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:271",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "11100",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:272",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:273",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:274",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:275",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:276",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:277",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "7800",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:278",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:279",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:280",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:281",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:282",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:283",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "11100",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:284",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:285",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:286",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:287",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:288",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:289",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "11200",
+            "cycle_state_max": "13600",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:290",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:291",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:292",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:293",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:294",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:295",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "11300",
+            "cycle_state_max": "13300",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:296",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:297",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:298",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:299",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:300",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:301",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "12200",
+            "cycle_state_max": "13300",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:302",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:303",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:304",
+            "type": "Robot",
+            "color": "#F4D03F",
+            "function": "Disassembles rocket",
+            "item_spec": "Yaskawa six-axis HC10",
+            "item_name": "Robot 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:305",
+            "type": "Gripper",
+            "color": "#33FF57",
+            "function": "Grips the rocket body parts",
+            "item_name": "Gripper 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:306",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Linear measurement of how far the gripper is opened or closed",
+            "item_spec": "Sensata-BEI",
+            "name": "Potentiometer 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:307",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1900,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "11200",
+            "cycle_state_max": "13200",
+            "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Pot",
+            "max_value": 12000
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:308",
+            "type": "Sensor",
+            "color": "#8E44AD",
+            "measures": "Pressure applied on the inside of the gripper",
+            "item_spec": "TE Connectivity",
+            "item_name": "Load Cell 4"
+        },
+        {
+            "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:309",
+            "type": "Sensor_Value",
+            "color": "#1ABC9C",
+            "min_value": 1700,
+            "value_type": "integer",
+            "unit": "x",
+            "cycle_state_min": "NA",
+            "cycle_state_max": "NA",
+            "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+            "item_name": "I_R04_Gripper_Load",
+            "max_value": 10300
+        }
+    ],
+    "links": [
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:155",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:156",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:156",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:157",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:157",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:158",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:158",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:159",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:159",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:160",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:160",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:161",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:161",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:162",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:162",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:163",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:163",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:164",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:164",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:165",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:165",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:166",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:166",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:167",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:167",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:168",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:168",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:169",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:169",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:170",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:170",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:171",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:171",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:172",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:172",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:173",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:173",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:174",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:174",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:175",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:175",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:176",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:176",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:177",
+            "relationship": "_RELATED"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:179",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:178",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:180",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:179",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:180",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:156",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:179",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:181",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:181",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:182",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:178",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:183",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:184",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:158",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:184",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:185",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:185",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:186",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:185",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:187",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:187",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:188",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:186",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:189",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:191",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:190",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:192",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:191",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:193",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:192",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:193",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:157",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:192",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:194",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:194",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:195",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:196",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:159",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:196",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:197",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:197",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:198",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:198",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:199",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:197",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:200",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:200",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:201",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:202",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:160",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:202",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:203",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:203",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:204",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:204",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:205",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:203",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:206",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:206",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:207",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:208",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:161",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:208",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:209",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:209",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:210",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:210",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:211",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:209",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:212",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:212",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:213",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:214",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:162",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:214",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:215",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:215",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:216",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:216",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:217",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:215",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:218",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:218",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:219",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:220",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:163",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:221",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:163",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:221",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:222",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:222",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:223",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:223",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:224",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:222",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:225",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:225",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:226",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:220",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:227",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:227",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:228",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:228",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:229",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:227",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:230",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:230",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:231",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:164",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:232",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:232",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:233",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:233",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:234",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:234",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:235",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:233",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:236",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:236",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:237",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:166",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:238",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:238",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:239",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:239",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:240",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:240",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:241",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:239",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:242",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:242",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:243",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:244",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:168",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:244",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:245",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:245",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:246",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:246",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:247",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:245",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:248",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:248",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:249",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:250",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:170",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:250",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:251",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:251",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:252",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:252",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:253",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:251",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:254",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:254",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:255",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:165",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:256",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:256",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:257",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:257",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:258",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:258",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:259",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:257",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:260",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:260",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:261",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:167",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:262",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:262",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:263",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:263",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:264",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:264",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:265",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:263",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:266",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:266",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:267",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:268",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:173",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:268",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:269",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:269",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:270",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:270",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:271",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:269",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:272",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:272",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:273",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:274",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:171",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:274",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:275",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:275",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:276",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:276",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:277",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:275",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:278",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:278",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:279",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:280",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:172",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:280",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:281",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:281",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:282",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:282",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:283",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:281",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:284",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:284",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:285",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:286",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:174",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:286",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:287",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:287",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:288",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:288",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:289",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:287",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:290",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:290",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:291",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:169",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:292",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:292",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:293",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:293",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:294",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:294",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:295",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:293",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:296",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:296",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:297",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:176",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:298",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:298",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:299",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:299",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:300",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:300",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:301",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:299",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:302",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:302",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:303",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:304",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:175",
+            "relationship": "operates_in"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:304",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:305",
+            "relationship": "has"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:305",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:306",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:306",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:307",
+            "relationship": "has_value"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:305",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:308",
+            "relationship": "has_sensor"
+        },
+        {
+            "source": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:308",
+            "target": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:309",
+            "relationship": "has_value"
+        }
+    ]
+}
