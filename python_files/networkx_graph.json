@@ -1,0 +1,2284 @@
+{
+    "nodes": [
+        {
+            "id": 155,
+            "attributes": {
+                "marker_name": "Start"
+            }
+        },
+        {
+            "id": 156,
+            "attributes": {
+                "cycle_state": 1,
+                "anomaly_types": [
+                    "NoAnomaly"
+                ],
+                "cycle_function": "Robot-1 Picks Tray from MHS"
+            }
+        },
+        {
+            "id": 157,
+            "attributes": {
+                "cycle_state": 2,
+                "anomaly_types": [
+                    "NoAnomaly"
+                ],
+                "cycle_function": "Robot-1 Places Tray on Conveyor"
+            }
+        },
+        {
+            "id": 158,
+            "attributes": {
+                "cycle_state": 3,
+                "anomaly_types": [
+                    "NoAnomaly"
+                ],
+                "cycle_function": "Robot-1 Goes Back to Home Position and Conveyors On"
+            }
+        },
+        {
+            "id": 159,
+            "attributes": {
+                "cycle_state": 4,
+                "anomaly_types": [
+                    "NoBody1"
+                ],
+                "cycle_function": "Robot-2 Picks Body 1 from Conveyor"
+            }
+        },
+        {
+            "id": 160,
+            "attributes": {
+                "cycle_state": 5,
+                "anomaly_types": [
+                    "NoBody1"
+                ],
+                "cycle_function": "Robot-2 Places Body 1 on local station"
+            }
+        },
+        {
+            "id": 161,
+            "attributes": {
+                "cycle_state": 6,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2"
+                ],
+                "cycle_function": "Robot-2 Picks Body 2 from Conveyor"
+            }
+        },
+        {
+            "id": 162,
+            "attributes": {
+                "cycle_state": 7,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2"
+                ],
+                "cycle_function": "Robot-2 Places Body 2 on local station"
+            }
+        },
+        {
+            "id": 163,
+            "attributes": {
+                "cycle_state": 8,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-2 and Robot-3 Assemble Rocket Together"
+            }
+        },
+        {
+            "id": 164,
+            "attributes": {
+                "cycle_state": 9,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Conveyors move assembled rocket to Robot-4 and Robot-4 picks up tray"
+            }
+        },
+        {
+            "id": 165,
+            "attributes": {
+                "cycle_state": 10,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 places tray on fixture"
+            }
+        },
+        {
+            "id": 166,
+            "attributes": {
+                "cycle_state": 11,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Disassembles Rocket's Nose"
+            }
+        },
+        {
+            "id": 167,
+            "attributes": {
+                "cycle_state": 12,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Disassembles Rocket Body 2"
+            }
+        },
+        {
+            "id": 168,
+            "attributes": {
+                "cycle_state": 13,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Disassembles Rocket Body 1"
+            }
+        },
+        {
+            "id": 169,
+            "attributes": {
+                "cycle_state": 14,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Disassembles Rocket's Tail"
+            }
+        },
+        {
+            "id": 170,
+            "attributes": {
+                "cycle_state": 15,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Places Rocket's Tail Back on Tray"
+            }
+        },
+        {
+            "id": 171,
+            "attributes": {
+                "cycle_state": 16,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Places Rocket's Nose Back on Tray"
+            }
+        },
+        {
+            "id": 172,
+            "attributes": {
+                "cycle_state": 17,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Places Rocket Body 1 Back on Tray"
+            }
+        },
+        {
+            "id": 173,
+            "attributes": {
+                "cycle_state": 18,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Places Rocket Body 2 Back on Tray"
+            }
+        },
+        {
+            "id": 174,
+            "attributes": {
+                "cycle_state": 19,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Picks Disassembled Tray"
+            }
+        },
+        {
+            "id": 175,
+            "attributes": {
+                "cycle_state": 20,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Places Tray on Material Handling Station(MHS)"
+            }
+        },
+        {
+            "id": 176,
+            "attributes": {
+                "cycle_state": 21,
+                "anomaly_types": [
+                    "NoBody1",
+                    " NoBody2",
+                    " NoNose"
+                ],
+                "cycle_function": "Robot-4 Goes Back to Home Position"
+            }
+        },
+        {
+            "id": 177,
+            "attributes": {
+                "marker_name": "End"
+            }
+        },
+        {
+            "id": 179,
+            "attributes": {
+                "function": "Picks up the tray",
+                "item_spec": "3D Printed",
+                "item_name": "Gripper 1"
+            }
+        },
+        {
+            "id": 178,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 1"
+            }
+        },
+        {
+            "id": 180,
+            "attributes": {
+                "item_name": "Robot 1"
+            }
+        },
+        {
+            "id": 181,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 1"
+            }
+        },
+        {
+            "id": 182,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "4500 ",
+                "cycle_state_max": " 12000",
+                "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
+                "item_name": "I_R01_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 183,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "0 ",
+                "cycle_state_max": " 1000",
+                "description": "The analog output signal of the load cell on the Robot 1 gripper ",
+                "item_name": "I_R01_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 184,
+            "attributes": {
+                "item_name": "Robot 1"
+            }
+        },
+        {
+            "id": 185,
+            "attributes": {
+                "function": "Picks up the tray",
+                "item_spec": "3D Printed",
+                "item_name": "Gripper 1"
+            }
+        },
+        {
+            "id": 186,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 1"
+            }
+        },
+        {
+            "id": 187,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 1"
+            }
+        },
+        {
+            "id": 188,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "11000",
+                "cycle_state_max": "12000",
+                "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
+                "item_name": "I_R01_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 189,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "0 ",
+                "cycle_state_max": " 1000",
+                "description": "The analog output signal of the load cell on the Robot 1 gripper ",
+                "item_name": "I_R01_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 191,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 1"
+            }
+        },
+        {
+            "id": 190,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "4500",
+                "cycle_state_max": "12000",
+                "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
+                "item_name": "I_R01_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 192,
+            "attributes": {
+                "function": "Picks up the tray",
+                "item_spec": "3D Printed",
+                "item_name": "Gripper 1"
+            }
+        },
+        {
+            "id": 193,
+            "attributes": {
+                "item_name": "Robot 1"
+            }
+        },
+        {
+            "id": 194,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 1"
+            }
+        },
+        {
+            "id": 195,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "0 ",
+                "cycle_state_max": " 1000",
+                "description": "The analog output signal of the load cell on the Robot 1 gripper ",
+                "item_name": "I_R01_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 196,
+            "attributes": {
+                "item_spec": "Yaskawa six-axis GP8",
+                "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+                "item_name": "Robot 2"
+            }
+        },
+        {
+            "id": 197,
+            "attributes": {
+                "function": "Tension grips the two body parts ",
+                "item_spec": "3D Printed",
+                "item_name": "Gripper 2"
+            }
+        },
+        {
+            "id": 198,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 2"
+            }
+        },
+        {
+            "id": 199,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "6400",
+                "cycle_state_max": "12000",
+                "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 200,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 2"
+            }
+        },
+        {
+            "id": 201,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "1200",
+                "cycle_state_max": "1400",
+                "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 202,
+            "attributes": {
+                "item_spec": "Yaskawa six-axis GP8",
+                "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+                "item_name": "Robot 2"
+            }
+        },
+        {
+            "id": 203,
+            "attributes": {
+                "function": "Tension grips the two body parts ",
+                "item_spec": "3D Printed",
+                "item_name": "Gripper 2"
+            }
+        },
+        {
+            "id": 204,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 2"
+            }
+        },
+        {
+            "id": 205,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "6000",
+                "cycle_state_max": "12000",
+                "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 206,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 2"
+            }
+        },
+        {
+            "id": 207,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "1200",
+                "cycle_state_max": "1400",
+                "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 208,
+            "attributes": {
+                "item_spec": "Yaskawa six-axis GP8",
+                "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+                "item_name": "Robot 2"
+            }
+        },
+        {
+            "id": 209,
+            "attributes": {
+                "function": "Tension grips the two body parts ",
+                "item_spec": "3D Printed",
+                "item_name": "Gripper 2"
+            }
+        },
+        {
+            "id": 210,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 2"
+            }
+        },
+        {
+            "id": 211,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "6000",
+                "cycle_state_max": "12000",
+                "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 212,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 2"
+            }
+        },
+        {
+            "id": 213,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "1200",
+                "cycle_state_max": "1400",
+                "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 214,
+            "attributes": {
+                "item_spec": "Yaskawa six-axis GP8",
+                "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+                "item_name": "Robot 2"
+            }
+        },
+        {
+            "id": 215,
+            "attributes": {
+                "function": "Tension grips the two body parts ",
+                "item_spec": "3D Printed",
+                "item_name": "Gripper 2"
+            }
+        },
+        {
+            "id": 216,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 2"
+            }
+        },
+        {
+            "id": 217,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "6000",
+                "cycle_state_max": "12000",
+                "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 218,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 2"
+            }
+        },
+        {
+            "id": 219,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "1200",
+                "cycle_state_max": "1400",
+                "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 220,
+            "attributes": {
+                "function": "Assembles all four rocket parts",
+                "item_spec": "Yaskawa six-axis GP8",
+                "item_name": "Robot 3"
+            }
+        },
+        {
+            "id": 221,
+            "attributes": {
+                "item_spec": "Yaskawa six-axis GP8",
+                "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
+                "item_name": "Robot 2"
+            }
+        },
+        {
+            "id": 222,
+            "attributes": {
+                "function": "Tension grips the two body parts ",
+                "item_spec": "3D Printed",
+                "item_name": "Gripper 2"
+            }
+        },
+        {
+            "id": 223,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 2"
+            }
+        },
+        {
+            "id": 224,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "6000",
+                "cycle_state_max": "12000",
+                "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 225,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 2"
+            }
+        },
+        {
+            "id": 226,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "1200",
+                "cycle_state_max": "1400",
+                "description": "The analog output signal of the load cell on the Robot 2 gripper ",
+                "item_name": "I_R02_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 227,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 3"
+            }
+        },
+        {
+            "id": 228,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "item_name": "Potentiometer 3"
+            }
+        },
+        {
+            "id": 229,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "2200",
+                "cycle_state_max": "13000",
+                "description": "The analog output signal of the potentiometer on the Robot 3 gripper ",
+                "item_name": "I_R03_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 230,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load cell 3"
+            }
+        },
+        {
+            "id": 231,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "1300",
+                "cycle_state_max": "11000",
+                "description": "The analog output signal of the load cell on the Robot 3 gripper ",
+                "item_name": "I_R03_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 232,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 233,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 234,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 235,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "8000",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 236,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 237,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 238,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 239,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 240,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 241,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "7100",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 242,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 243,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 244,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 245,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 246,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 247,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "11400",
+                "cycle_state_max": "13300",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 248,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 249,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 250,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 251,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 252,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 253,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "7800",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 254,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 255,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 256,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 257,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 258,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 259,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "7100",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 260,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 261,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 262,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 263,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 264,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 265,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "7100",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 266,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 267,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 268,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 269,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 270,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 271,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "11100",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 272,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 273,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 274,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 275,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 276,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 277,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "7800",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 278,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 279,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 280,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 281,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 282,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 283,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "11100",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 284,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 285,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 286,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 287,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 288,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 289,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "11200",
+                "cycle_state_max": "13600",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 290,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 291,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 292,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 293,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 294,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 295,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "11300",
+                "cycle_state_max": "13300",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 296,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 297,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 298,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 299,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 300,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 301,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "12200",
+                "cycle_state_max": "13300",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 302,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 303,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        },
+        {
+            "id": 304,
+            "attributes": {
+                "function": "Disassembles rocket",
+                "item_spec": "Yaskawa six-axis HC10",
+                "item_name": "Robot 4"
+            }
+        },
+        {
+            "id": 305,
+            "attributes": {
+                "function": "Grips the rocket body parts",
+                "item_name": "Gripper 4"
+            }
+        },
+        {
+            "id": 306,
+            "attributes": {
+                "measures": "Linear measurement of how far the gripper is opened or closed",
+                "item_spec": "Sensata-BEI",
+                "name": "Potentiometer 4"
+            }
+        },
+        {
+            "id": 307,
+            "attributes": {
+                "min_value": 1900,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "11200",
+                "cycle_state_max": "13200",
+                "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Pot",
+                "max_value": 12000
+            }
+        },
+        {
+            "id": 308,
+            "attributes": {
+                "measures": "Pressure applied on the inside of the gripper",
+                "item_spec": "TE Connectivity",
+                "item_name": "Load Cell 4"
+            }
+        },
+        {
+            "id": 309,
+            "attributes": {
+                "min_value": 1700,
+                "value_type": "integer",
+                "unit": "x",
+                "cycle_state_min": "NA",
+                "cycle_state_max": "NA",
+                "description": "The analog output signal of the load cell on the Robot 4 gripper ",
+                "item_name": "I_R04_Gripper_Load",
+                "max_value": 10300
+            }
+        }
+    ],
+    "edges": [
+        {
+            "source": 155,
+            "target": 156,
+            "attributes": {}
+        },
+        {
+            "source": 156,
+            "target": 157,
+            "attributes": {}
+        },
+        {
+            "source": 157,
+            "target": 158,
+            "attributes": {}
+        },
+        {
+            "source": 158,
+            "target": 159,
+            "attributes": {}
+        },
+        {
+            "source": 159,
+            "target": 160,
+            "attributes": {}
+        },
+        {
+            "source": 160,
+            "target": 161,
+            "attributes": {}
+        },
+        {
+            "source": 161,
+            "target": 162,
+            "attributes": {}
+        },
+        {
+            "source": 162,
+            "target": 163,
+            "attributes": {}
+        },
+        {
+            "source": 163,
+            "target": 164,
+            "attributes": {}
+        },
+        {
+            "source": 164,
+            "target": 165,
+            "attributes": {}
+        },
+        {
+            "source": 164,
+            "target": 232,
+            "attributes": {}
+        },
+        {
+            "source": 165,
+            "target": 166,
+            "attributes": {}
+        },
+        {
+            "source": 165,
+            "target": 256,
+            "attributes": {}
+        },
+        {
+            "source": 166,
+            "target": 167,
+            "attributes": {}
+        },
+        {
+            "source": 166,
+            "target": 238,
+            "attributes": {}
+        },
+        {
+            "source": 167,
+            "target": 168,
+            "attributes": {}
+        },
+        {
+            "source": 167,
+            "target": 262,
+            "attributes": {}
+        },
+        {
+            "source": 168,
+            "target": 169,
+            "attributes": {}
+        },
+        {
+            "source": 169,
+            "target": 170,
+            "attributes": {}
+        },
+        {
+            "source": 169,
+            "target": 292,
+            "attributes": {}
+        },
+        {
+            "source": 170,
+            "target": 171,
+            "attributes": {}
+        },
+        {
+            "source": 171,
+            "target": 172,
+            "attributes": {}
+        },
+        {
+            "source": 172,
+            "target": 173,
+            "attributes": {}
+        },
+        {
+            "source": 173,
+            "target": 174,
+            "attributes": {}
+        },
+        {
+            "source": 174,
+            "target": 175,
+            "attributes": {}
+        },
+        {
+            "source": 175,
+            "target": 176,
+            "attributes": {}
+        },
+        {
+            "source": 176,
+            "target": 177,
+            "attributes": {}
+        },
+        {
+            "source": 176,
+            "target": 298,
+            "attributes": {}
+        },
+        {
+            "source": 179,
+            "target": 178,
+            "attributes": {}
+        },
+        {
+            "source": 179,
+            "target": 181,
+            "attributes": {}
+        },
+        {
+            "source": 178,
+            "target": 183,
+            "attributes": {}
+        },
+        {
+            "source": 180,
+            "target": 179,
+            "attributes": {}
+        },
+        {
+            "source": 180,
+            "target": 156,
+            "attributes": {}
+        },
+        {
+            "source": 181,
+            "target": 182,
+            "attributes": {}
+        },
+        {
+            "source": 184,
+            "target": 158,
+            "attributes": {}
+        },
+        {
+            "source": 184,
+            "target": 185,
+            "attributes": {}
+        },
+        {
+            "source": 185,
+            "target": 186,
+            "attributes": {}
+        },
+        {
+            "source": 185,
+            "target": 187,
+            "attributes": {}
+        },
+        {
+            "source": 186,
+            "target": 189,
+            "attributes": {}
+        },
+        {
+            "source": 187,
+            "target": 188,
+            "attributes": {}
+        },
+        {
+            "source": 191,
+            "target": 190,
+            "attributes": {}
+        },
+        {
+            "source": 192,
+            "target": 191,
+            "attributes": {}
+        },
+        {
+            "source": 192,
+            "target": 194,
+            "attributes": {}
+        },
+        {
+            "source": 193,
+            "target": 192,
+            "attributes": {}
+        },
+        {
+            "source": 193,
+            "target": 157,
+            "attributes": {}
+        },
+        {
+            "source": 194,
+            "target": 195,
+            "attributes": {}
+        },
+        {
+            "source": 196,
+            "target": 159,
+            "attributes": {}
+        },
+        {
+            "source": 196,
+            "target": 197,
+            "attributes": {}
+        },
+        {
+            "source": 197,
+            "target": 198,
+            "attributes": {}
+        },
+        {
+            "source": 197,
+            "target": 200,
+            "attributes": {}
+        },
+        {
+            "source": 198,
+            "target": 199,
+            "attributes": {}
+        },
+        {
+            "source": 200,
+            "target": 201,
+            "attributes": {}
+        },
+        {
+            "source": 202,
+            "target": 160,
+            "attributes": {}
+        },
+        {
+            "source": 202,
+            "target": 203,
+            "attributes": {}
+        },
+        {
+            "source": 203,
+            "target": 204,
+            "attributes": {}
+        },
+        {
+            "source": 203,
+            "target": 206,
+            "attributes": {}
+        },
+        {
+            "source": 204,
+            "target": 205,
+            "attributes": {}
+        },
+        {
+            "source": 206,
+            "target": 207,
+            "attributes": {}
+        },
+        {
+            "source": 208,
+            "target": 161,
+            "attributes": {}
+        },
+        {
+            "source": 208,
+            "target": 209,
+            "attributes": {}
+        },
+        {
+            "source": 209,
+            "target": 210,
+            "attributes": {}
+        },
+        {
+            "source": 209,
+            "target": 212,
+            "attributes": {}
+        },
+        {
+            "source": 210,
+            "target": 211,
+            "attributes": {}
+        },
+        {
+            "source": 212,
+            "target": 213,
+            "attributes": {}
+        },
+        {
+            "source": 214,
+            "target": 162,
+            "attributes": {}
+        },
+        {
+            "source": 214,
+            "target": 215,
+            "attributes": {}
+        },
+        {
+            "source": 215,
+            "target": 216,
+            "attributes": {}
+        },
+        {
+            "source": 215,
+            "target": 218,
+            "attributes": {}
+        },
+        {
+            "source": 216,
+            "target": 217,
+            "attributes": {}
+        },
+        {
+            "source": 218,
+            "target": 219,
+            "attributes": {}
+        },
+        {
+            "source": 220,
+            "target": 163,
+            "attributes": {}
+        },
+        {
+            "source": 220,
+            "target": 227,
+            "attributes": {}
+        },
+        {
+            "source": 221,
+            "target": 163,
+            "attributes": {}
+        },
+        {
+            "source": 221,
+            "target": 222,
+            "attributes": {}
+        },
+        {
+            "source": 222,
+            "target": 223,
+            "attributes": {}
+        },
+        {
+            "source": 222,
+            "target": 225,
+            "attributes": {}
+        },
+        {
+            "source": 223,
+            "target": 224,
+            "attributes": {}
+        },
+        {
+            "source": 225,
+            "target": 226,
+            "attributes": {}
+        },
+        {
+            "source": 227,
+            "target": 228,
+            "attributes": {}
+        },
+        {
+            "source": 227,
+            "target": 230,
+            "attributes": {}
+        },
+        {
+            "source": 228,
+            "target": 229,
+            "attributes": {}
+        },
+        {
+            "source": 230,
+            "target": 231,
+            "attributes": {}
+        },
+        {
+            "source": 232,
+            "target": 233,
+            "attributes": {}
+        },
+        {
+            "source": 233,
+            "target": 234,
+            "attributes": {}
+        },
+        {
+            "source": 233,
+            "target": 236,
+            "attributes": {}
+        },
+        {
+            "source": 234,
+            "target": 235,
+            "attributes": {}
+        },
+        {
+            "source": 236,
+            "target": 237,
+            "attributes": {}
+        },
+        {
+            "source": 238,
+            "target": 239,
+            "attributes": {}
+        },
+        {
+            "source": 239,
+            "target": 240,
+            "attributes": {}
+        },
+        {
+            "source": 239,
+            "target": 242,
+            "attributes": {}
+        },
+        {
+            "source": 240,
+            "target": 241,
+            "attributes": {}
+        },
+        {
+            "source": 242,
+            "target": 243,
+            "attributes": {}
+        },
+        {
+            "source": 244,
+            "target": 168,
+            "attributes": {}
+        },
+        {
+            "source": 244,
+            "target": 245,
+            "attributes": {}
+        },
+        {
+            "source": 245,
+            "target": 246,
+            "attributes": {}
+        },
+        {
+            "source": 245,
+            "target": 248,
+            "attributes": {}
+        },
+        {
+            "source": 246,
+            "target": 247,
+            "attributes": {}
+        },
+        {
+            "source": 248,
+            "target": 249,
+            "attributes": {}
+        },
+        {
+            "source": 250,
+            "target": 170,
+            "attributes": {}
+        },
+        {
+            "source": 250,
+            "target": 251,
+            "attributes": {}
+        },
+        {
+            "source": 251,
+            "target": 252,
+            "attributes": {}
+        },
+        {
+            "source": 251,
+            "target": 254,
+            "attributes": {}
+        },
+        {
+            "source": 252,
+            "target": 253,
+            "attributes": {}
+        },
+        {
+            "source": 254,
+            "target": 255,
+            "attributes": {}
+        },
+        {
+            "source": 256,
+            "target": 257,
+            "attributes": {}
+        },
+        {
+            "source": 257,
+            "target": 258,
+            "attributes": {}
+        },
+        {
+            "source": 257,
+            "target": 260,
+            "attributes": {}
+        },
+        {
+            "source": 258,
+            "target": 259,
+            "attributes": {}
+        },
+        {
+            "source": 260,
+            "target": 261,
+            "attributes": {}
+        },
+        {
+            "source": 262,
+            "target": 263,
+            "attributes": {}
+        },
+        {
+            "source": 263,
+            "target": 264,
+            "attributes": {}
+        },
+        {
+            "source": 263,
+            "target": 266,
+            "attributes": {}
+        },
+        {
+            "source": 264,
+            "target": 265,
+            "attributes": {}
+        },
+        {
+            "source": 266,
+            "target": 267,
+            "attributes": {}
+        },
+        {
+            "source": 268,
+            "target": 173,
+            "attributes": {}
+        },
+        {
+            "source": 268,
+            "target": 269,
+            "attributes": {}
+        },
+        {
+            "source": 269,
+            "target": 270,
+            "attributes": {}
+        },
+        {
+            "source": 269,
+            "target": 272,
+            "attributes": {}
+        },
+        {
+            "source": 270,
+            "target": 271,
+            "attributes": {}
+        },
+        {
+            "source": 272,
+            "target": 273,
+            "attributes": {}
+        },
+        {
+            "source": 274,
+            "target": 171,
+            "attributes": {}
+        },
+        {
+            "source": 274,
+            "target": 275,
+            "attributes": {}
+        },
+        {
+            "source": 275,
+            "target": 276,
+            "attributes": {}
+        },
+        {
+            "source": 275,
+            "target": 278,
+            "attributes": {}
+        },
+        {
+            "source": 276,
+            "target": 277,
+            "attributes": {}
+        },
+        {
+            "source": 278,
+            "target": 279,
+            "attributes": {}
+        },
+        {
+            "source": 280,
+            "target": 172,
+            "attributes": {}
+        },
+        {
+            "source": 280,
+            "target": 281,
+            "attributes": {}
+        },
+        {
+            "source": 281,
+            "target": 282,
+            "attributes": {}
+        },
+        {
+            "source": 281,
+            "target": 284,
+            "attributes": {}
+        },
+        {
+            "source": 282,
+            "target": 283,
+            "attributes": {}
+        },
+        {
+            "source": 284,
+            "target": 285,
+            "attributes": {}
+        },
+        {
+            "source": 286,
+            "target": 174,
+            "attributes": {}
+        },
+        {
+            "source": 286,
+            "target": 287,
+            "attributes": {}
+        },
+        {
+            "source": 287,
+            "target": 288,
+            "attributes": {}
+        },
+        {
+            "source": 287,
+            "target": 290,
+            "attributes": {}
+        },
+        {
+            "source": 288,
+            "target": 289,
+            "attributes": {}
+        },
+        {
+            "source": 290,
+            "target": 291,
+            "attributes": {}
+        },
+        {
+            "source": 292,
+            "target": 293,
+            "attributes": {}
+        },
+        {
+            "source": 293,
+            "target": 294,
+            "attributes": {}
+        },
+        {
+            "source": 293,
+            "target": 296,
+            "attributes": {}
+        },
+        {
+            "source": 294,
+            "target": 295,
+            "attributes": {}
+        },
+        {
+            "source": 296,
+            "target": 297,
+            "attributes": {}
+        },
+        {
+            "source": 298,
+            "target": 299,
+            "attributes": {}
+        },
+        {
+            "source": 299,
+            "target": 300,
+            "attributes": {}
+        },
+        {
+            "source": 299,
+            "target": 302,
+            "attributes": {}
+        },
+        {
+            "source": 300,
+            "target": 301,
+            "attributes": {}
+        },
+        {
+            "source": 302,
+            "target": 303,
+            "attributes": {}
+        },
+        {
+            "source": 304,
+            "target": 175,
+            "attributes": {}
+        },
+        {
+            "source": 304,
+            "target": 305,
+            "attributes": {}
+        },
+        {
+            "source": 305,
+            "target": 306,
+            "attributes": {}
+        },
+        {
+            "source": 305,
+            "target": 308,
+            "attributes": {}
+        },
+        {
+            "source": 306,
+            "target": 307,
+            "attributes": {}
+        },
+        {
+            "source": 308,
+            "target": 309,
+            "attributes": {}
+        }
+    ]
+}

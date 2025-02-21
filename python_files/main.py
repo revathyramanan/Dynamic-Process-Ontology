@@ -167,7 +167,7 @@ neo4j_obj = Neo4jConnection(uri=URI,
 ont = Ontology()
 
 # open file
-df = pd.read_csv('../mfg-data/Chathurangi/final_df_image_detection.csv')
+df = pd.read_csv('../mfg-data/Image-Sensor-Usecase/final_df_image_detection.csv')
 nobody1 = 0
 nobody2 = 0
 nonose = 0
