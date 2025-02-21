@@ -3,26 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D3 Force-Directed Graph</title>
+    <title>Dynamic Process Ontology</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <style>
-        body { font-family: Arial, sans-serif; }
-        .node { stroke: #fff; stroke-width: 1.5px; }
-        .link { stroke: #999; stroke-opacity: 0.6; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            margin: 20px;
+            font-size: 24px;
+        }
+
+        #controls {
+            margin-bottom: 10px;
+        }
+
+        #graph-container {
+            width: 100vw;
+            height: 80vh;
+            border: 1px solid #ddd;
+            position: relative;
+        }
+
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .node {
+            stroke: #fff;
+            stroke-width: 1.5px;
+            cursor: pointer;
+        }
+
+        .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+
+        #node-info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            max-width: 300px;
+        }
+
+        button {
+            margin: 5px;
+            padding: 8px 12px;
+            font-size: 14px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
-    <h2>Interactive D3 Graph</h2>
-    <svg width="800" height="600"></svg>
+
+    <h2>Dynamic Process Ontology</h2>
+
+    <div id="controls">
+        <button onclick="zoomIn()">Zoom In</button>
+        <button onclick="zoomOut()">Zoom Out</button>
+    </div>
+
+    <div id="graph-container">
+        <svg></svg>
+        <div id="node-info"></div>
+    </div>
 
     <script>
         // Load JSON Data
         d3.json("d3_graph.json").then(function(graph) {
-            const width = 800, height = 600;
+            const width = document.getElementById("graph-container").offsetWidth;
+            const height = document.getElementById("graph-container").offsetHeight;
             
             const svg = d3.select("svg")
                           .attr("width", width)
-                          .attr("height", height);
+                          .attr("height", height)
+                          .call(d3.zoom().scaleExtent([0.5, 3]).on("zoom", (event) => {
+                              svg.attr("transform", event.transform);
+                          }))
+                          .append("g");
 
             const simulation = d3.forceSimulation(graph.nodes)
                 .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
@@ -48,6 +119,7 @@
                     .on("drag", dragged)
                     .on("end", dragended));
 
+            // Node label on hover
             node.append("title")
                 .text(d => `Type: ${d.type}\nID: ${d.id}`);
 
@@ -78,7 +150,24 @@
                 d.fy = null;
             }
 
+            // Show node info card on click
+            node.on("click", function(event, d) {
+                const infoBox = document.getElementById("node-info");
+                infoBox.innerHTML = `<strong>Node Details:</strong><br>Type: ${d.type}<br>ID: ${d.id}<br>Properties: ${JSON.stringify(d, null, 2)}`;
+                infoBox.style.display = "block";
+            });
+
         }).catch(error => console.error("Error loading JSON:", error));
+
+        // Zoom In and Zoom Out
+        function zoomIn() {
+            d3.select("svg").transition().duration(500).call(d3.zoom().scaleBy, 1.2);
+        }
+
+        function zoomOut() {
+            d3.select("svg").transition().duration(500).call(d3.zoom().scaleBy, 0.8);
+        }
     </script>
+
 </body>
 </html>
