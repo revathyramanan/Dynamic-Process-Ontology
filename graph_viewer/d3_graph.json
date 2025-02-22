@@ -788,7 +788,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:235",
@@ -845,7 +845,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:241",
@@ -902,7 +902,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:247",
@@ -959,7 +959,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:253",
@@ -1016,7 +1016,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:259",
@@ -1073,7 +1073,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:265",
@@ -1130,7 +1130,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:271",
@@ -1187,7 +1187,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:277",
@@ -1244,7 +1244,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:283",
@@ -1301,7 +1301,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:289",
@@ -1358,7 +1358,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:295",
@@ -1415,7 +1415,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:301",
@@ -1472,7 +1472,7 @@
             "color": "#8E44AD",
             "measures": "Linear measurement of how far the gripper is opened or closed",
             "item_spec": "Sensata-BEI",
-            "name": "Potentiometer 4"
+            "item_name": "Potentiometer 4"
         },
         {
             "id": "4:83cc3446-9260-480f-a2c3-b6fe6cd7fe98:307",

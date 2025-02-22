@@ -3,7 +3,9 @@
         {
             "id": 155,
             "attributes": {
-                "marker_name": "Start"
+                "marker_name": "Start",
+                "node_type": "Marker",
+                "node_name": "Start"
             }
         },
         {
@@ -13,7 +15,9 @@
                 "anomaly_types": [
                     "NoAnomaly"
                 ],
-                "cycle_function": "Robot-1 Picks Tray from MHS"
+                "cycle_function": "Robot-1 Picks Tray from MHS",
+                "node_type": "Cycle",
+                "node_name": "Cycle1"
             }
         },
         {
@@ -23,7 +27,9 @@
                 "anomaly_types": [
                     "NoAnomaly"
                 ],
-                "cycle_function": "Robot-1 Places Tray on Conveyor"
+                "cycle_function": "Robot-1 Places Tray on Conveyor",
+                "node_type": "Cycle",
+                "node_name": "Cycle2"
             }
         },
         {
@@ -33,7 +39,9 @@
                 "anomaly_types": [
                     "NoAnomaly"
                 ],
-                "cycle_function": "Robot-1 Goes Back to Home Position and Conveyors On"
+                "cycle_function": "Robot-1 Goes Back to Home Position and Conveyors On",
+                "node_type": "Cycle",
+                "node_name": "Cycle3"
             }
         },
         {
@@ -43,7 +51,9 @@
                 "anomaly_types": [
                     "NoBody1"
                 ],
-                "cycle_function": "Robot-2 Picks Body 1 from Conveyor"
+                "cycle_function": "Robot-2 Picks Body 1 from Conveyor",
+                "node_type": "Cycle",
+                "node_name": "Cycle4"
             }
         },
         {
@@ -53,7 +63,9 @@
                 "anomaly_types": [
                     "NoBody1"
                 ],
-                "cycle_function": "Robot-2 Places Body 1 on local station"
+                "cycle_function": "Robot-2 Places Body 1 on local station",
+                "node_type": "Cycle",
+                "node_name": "Cycle5"
             }
         },
         {
@@ -64,7 +76,9 @@
                     "NoBody1",
                     " NoBody2"
                 ],
-                "cycle_function": "Robot-2 Picks Body 2 from Conveyor"
+                "cycle_function": "Robot-2 Picks Body 2 from Conveyor",
+                "node_type": "Cycle",
+                "node_name": "Cycle6"
             }
         },
         {
@@ -75,7 +89,9 @@
                     "NoBody1",
                     " NoBody2"
                 ],
-                "cycle_function": "Robot-2 Places Body 2 on local station"
+                "cycle_function": "Robot-2 Places Body 2 on local station",
+                "node_type": "Cycle",
+                "node_name": "Cycle7"
             }
         },
         {
@@ -87,7 +103,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-2 and Robot-3 Assemble Rocket Together"
+                "cycle_function": "Robot-2 and Robot-3 Assemble Rocket Together",
+                "node_type": "Cycle",
+                "node_name": "Cycle8"
             }
         },
         {
@@ -99,7 +117,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Conveyors move assembled rocket to Robot-4 and Robot-4 picks up tray"
+                "cycle_function": "Conveyors move assembled rocket to Robot-4 and Robot-4 picks up tray",
+                "node_type": "Cycle",
+                "node_name": "Cycle9"
             }
         },
         {
@@ -111,7 +131,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 places tray on fixture"
+                "cycle_function": "Robot-4 places tray on fixture",
+                "node_type": "Cycle",
+                "node_name": "Cycle10"
             }
         },
         {
@@ -123,7 +145,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Disassembles Rocket's Nose"
+                "cycle_function": "Robot-4 Disassembles Rocket's Nose",
+                "node_type": "Cycle",
+                "node_name": "Cycle11"
             }
         },
         {
@@ -135,7 +159,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Disassembles Rocket Body 2"
+                "cycle_function": "Robot-4 Disassembles Rocket Body 2",
+                "node_type": "Cycle",
+                "node_name": "Cycle12"
             }
         },
         {
@@ -147,7 +173,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Disassembles Rocket Body 1"
+                "cycle_function": "Robot-4 Disassembles Rocket Body 1",
+                "node_type": "Cycle",
+                "node_name": "Cycle13"
             }
         },
         {
@@ -159,7 +187,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Disassembles Rocket's Tail"
+                "cycle_function": "Robot-4 Disassembles Rocket's Tail",
+                "node_type": "Cycle",
+                "node_name": "Cycle14"
             }
         },
         {
@@ -171,7 +201,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Places Rocket's Tail Back on Tray"
+                "cycle_function": "Robot-4 Places Rocket's Tail Back on Tray",
+                "node_type": "Cycle",
+                "node_name": "Cycle15"
             }
         },
         {
@@ -183,7 +215,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Places Rocket's Nose Back on Tray"
+                "cycle_function": "Robot-4 Places Rocket's Nose Back on Tray",
+                "node_type": "Cycle",
+                "node_name": "Cycle16"
             }
         },
         {
@@ -195,7 +229,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Places Rocket Body 1 Back on Tray"
+                "cycle_function": "Robot-4 Places Rocket Body 1 Back on Tray",
+                "node_type": "Cycle",
+                "node_name": "Cycle17"
             }
         },
         {
@@ -207,7 +243,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Places Rocket Body 2 Back on Tray"
+                "cycle_function": "Robot-4 Places Rocket Body 2 Back on Tray",
+                "node_type": "Cycle",
+                "node_name": "Cycle18"
             }
         },
         {
@@ -219,7 +257,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Picks Disassembled Tray"
+                "cycle_function": "Robot-4 Picks Disassembled Tray",
+                "node_type": "Cycle",
+                "node_name": "Cycle19"
             }
         },
         {
@@ -231,7 +271,9 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Places Tray on Material Handling Station(MHS)"
+                "cycle_function": "Robot-4 Places Tray on Material Handling Station(MHS)",
+                "node_type": "Cycle",
+                "node_name": "Cycle20"
             }
         },
         {
@@ -243,13 +285,17 @@
                     " NoBody2",
                     " NoNose"
                 ],
-                "cycle_function": "Robot-4 Goes Back to Home Position"
+                "cycle_function": "Robot-4 Goes Back to Home Position",
+                "node_type": "Cycle",
+                "node_name": "Cycle21"
             }
         },
         {
             "id": 177,
             "attributes": {
-                "marker_name": "End"
+                "marker_name": "End",
+                "node_type": "Marker",
+                "node_name": "End"
             }
         },
         {
@@ -257,7 +303,9 @@
             "attributes": {
                 "function": "Picks up the tray",
                 "item_spec": "3D Printed",
-                "item_name": "Gripper 1"
+                "item_name": "Gripper 1",
+                "node_type": "Gripper",
+                "node_name": "Gripper 1"
             }
         },
         {
@@ -265,13 +313,17 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 1"
+                "item_name": "Load cell 1",
+                "node_type": "Sensor",
+                "node_name": "Load cell 1"
             }
         },
         {
             "id": 180,
             "attributes": {
-                "item_name": "Robot 1"
+                "item_name": "Robot 1",
+                "node_type": "Robot",
+                "node_name": "Robot 1"
             }
         },
         {
@@ -279,7 +331,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 1"
+                "item_name": "Potentiometer 1",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 1"
             }
         },
         {
@@ -292,7 +346,9 @@
                 "cycle_state_max": " 12000",
                 "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
                 "item_name": "I_R01_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R01_Gripper_Pot"
             }
         },
         {
@@ -305,13 +361,17 @@
                 "cycle_state_max": " 1000",
                 "description": "The analog output signal of the load cell on the Robot 1 gripper ",
                 "item_name": "I_R01_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R01_Gripper_Load"
             }
         },
         {
             "id": 184,
             "attributes": {
-                "item_name": "Robot 1"
+                "item_name": "Robot 1",
+                "node_type": "Robot",
+                "node_name": "Robot 1"
             }
         },
         {
@@ -319,7 +379,9 @@
             "attributes": {
                 "function": "Picks up the tray",
                 "item_spec": "3D Printed",
-                "item_name": "Gripper 1"
+                "item_name": "Gripper 1",
+                "node_type": "Gripper",
+                "node_name": "Gripper 1"
             }
         },
         {
@@ -327,7 +389,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 1"
+                "item_name": "Load cell 1",
+                "node_type": "Sensor",
+                "node_name": "Load cell 1"
             }
         },
         {
@@ -335,7 +399,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 1"
+                "item_name": "Potentiometer 1",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 1"
             }
         },
         {
@@ -348,7 +414,9 @@
                 "cycle_state_max": "12000",
                 "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
                 "item_name": "I_R01_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R01_Gripper_Pot"
             }
         },
         {
@@ -361,7 +429,9 @@
                 "cycle_state_max": " 1000",
                 "description": "The analog output signal of the load cell on the Robot 1 gripper ",
                 "item_name": "I_R01_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R01_Gripper_Load"
             }
         },
         {
@@ -369,7 +439,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 1"
+                "item_name": "Potentiometer 1",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 1"
             }
         },
         {
@@ -382,7 +454,9 @@
                 "cycle_state_max": "12000",
                 "description": "The analog output signal of the potentiometer on the Robot 1 gripper ",
                 "item_name": "I_R01_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R01_Gripper_Pot"
             }
         },
         {
@@ -390,13 +464,17 @@
             "attributes": {
                 "function": "Picks up the tray",
                 "item_spec": "3D Printed",
-                "item_name": "Gripper 1"
+                "item_name": "Gripper 1",
+                "node_type": "Gripper",
+                "node_name": "Gripper 1"
             }
         },
         {
             "id": 193,
             "attributes": {
-                "item_name": "Robot 1"
+                "item_name": "Robot 1",
+                "node_type": "Robot",
+                "node_name": "Robot 1"
             }
         },
         {
@@ -404,7 +482,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 1"
+                "item_name": "Load cell 1",
+                "node_type": "Sensor",
+                "node_name": "Load cell 1"
             }
         },
         {
@@ -417,7 +497,9 @@
                 "cycle_state_max": " 1000",
                 "description": "The analog output signal of the load cell on the Robot 1 gripper ",
                 "item_name": "I_R01_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R01_Gripper_Load"
             }
         },
         {
@@ -425,7 +507,9 @@
             "attributes": {
                 "item_spec": "Yaskawa six-axis GP8",
                 "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
-                "item_name": "Robot 2"
+                "item_name": "Robot 2",
+                "node_type": "Robot",
+                "node_name": "Robot 2"
             }
         },
         {
@@ -433,7 +517,9 @@
             "attributes": {
                 "function": "Tension grips the two body parts ",
                 "item_spec": "3D Printed",
-                "item_name": "Gripper 2"
+                "item_name": "Gripper 2",
+                "node_type": "Gripper",
+                "node_name": "Gripper 2"
             }
         },
         {
@@ -441,7 +527,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 2"
+                "item_name": "Potentiometer 2",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 2"
             }
         },
         {
@@ -454,7 +542,9 @@
                 "cycle_state_max": "12000",
                 "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Pot"
             }
         },
         {
@@ -462,7 +552,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 2"
+                "item_name": "Load cell 2",
+                "node_type": "Sensor",
+                "node_name": "Load cell 2"
             }
         },
         {
@@ -475,7 +567,9 @@
                 "cycle_state_max": "1400",
                 "description": "The analog output signal of the load cell on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Load"
             }
         },
         {
@@ -483,7 +577,9 @@
             "attributes": {
                 "item_spec": "Yaskawa six-axis GP8",
                 "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
-                "item_name": "Robot 2"
+                "item_name": "Robot 2",
+                "node_type": "Robot",
+                "node_name": "Robot 2"
             }
         },
         {
@@ -491,7 +587,9 @@
             "attributes": {
                 "function": "Tension grips the two body parts ",
                 "item_spec": "3D Printed",
-                "item_name": "Gripper 2"
+                "item_name": "Gripper 2",
+                "node_type": "Gripper",
+                "node_name": "Gripper 2"
             }
         },
         {
@@ -499,7 +597,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 2"
+                "item_name": "Potentiometer 2",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 2"
             }
         },
         {
@@ -512,7 +612,9 @@
                 "cycle_state_max": "12000",
                 "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Pot"
             }
         },
         {
@@ -520,7 +622,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 2"
+                "item_name": "Load cell 2",
+                "node_type": "Sensor",
+                "node_name": "Load cell 2"
             }
         },
         {
@@ -533,7 +637,9 @@
                 "cycle_state_max": "1400",
                 "description": "The analog output signal of the load cell on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Load"
             }
         },
         {
@@ -541,7 +647,9 @@
             "attributes": {
                 "item_spec": "Yaskawa six-axis GP8",
                 "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
-                "item_name": "Robot 2"
+                "item_name": "Robot 2",
+                "node_type": "Robot",
+                "node_name": "Robot 2"
             }
         },
         {
@@ -549,7 +657,9 @@
             "attributes": {
                 "function": "Tension grips the two body parts ",
                 "item_spec": "3D Printed",
-                "item_name": "Gripper 2"
+                "item_name": "Gripper 2",
+                "node_type": "Gripper",
+                "node_name": "Gripper 2"
             }
         },
         {
@@ -557,7 +667,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 2"
+                "item_name": "Potentiometer 2",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 2"
             }
         },
         {
@@ -570,7 +682,9 @@
                 "cycle_state_max": "12000",
                 "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Pot"
             }
         },
         {
@@ -578,7 +692,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 2"
+                "item_name": "Load cell 2",
+                "node_type": "Sensor",
+                "node_name": "Load cell 2"
             }
         },
         {
@@ -591,7 +707,9 @@
                 "cycle_state_max": "1400",
                 "description": "The analog output signal of the load cell on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Load"
             }
         },
         {
@@ -599,7 +717,9 @@
             "attributes": {
                 "item_spec": "Yaskawa six-axis GP8",
                 "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
-                "item_name": "Robot 2"
+                "item_name": "Robot 2",
+                "node_type": "Robot",
+                "node_name": "Robot 2"
             }
         },
         {
@@ -607,7 +727,9 @@
             "attributes": {
                 "function": "Tension grips the two body parts ",
                 "item_spec": "3D Printed",
-                "item_name": "Gripper 2"
+                "item_name": "Gripper 2",
+                "node_type": "Gripper",
+                "node_name": "Gripper 2"
             }
         },
         {
@@ -615,7 +737,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 2"
+                "item_name": "Potentiometer 2",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 2"
             }
         },
         {
@@ -628,7 +752,9 @@
                 "cycle_state_max": "12000",
                 "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Pot"
             }
         },
         {
@@ -636,7 +762,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 2"
+                "item_name": "Load cell 2",
+                "node_type": "Sensor",
+                "node_name": "Load cell 2"
             }
         },
         {
@@ -649,7 +777,9 @@
                 "cycle_state_max": "1400",
                 "description": "The analog output signal of the load cell on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Load"
             }
         },
         {
@@ -657,7 +787,9 @@
             "attributes": {
                 "function": "Assembles all four rocket parts",
                 "item_spec": "Yaskawa six-axis GP8",
-                "item_name": "Robot 3"
+                "item_name": "Robot 3",
+                "node_type": "Robot",
+                "node_name": "Robot 3"
             }
         },
         {
@@ -665,7 +797,9 @@
             "attributes": {
                 "item_spec": "Yaskawa six-axis GP8",
                 "function": "Takes two body parts of the rocket and stores it in its assembly plate then hands them to R03",
-                "item_name": "Robot 2"
+                "item_name": "Robot 2",
+                "node_type": "Robot",
+                "node_name": "Robot 2"
             }
         },
         {
@@ -673,7 +807,9 @@
             "attributes": {
                 "function": "Tension grips the two body parts ",
                 "item_spec": "3D Printed",
-                "item_name": "Gripper 2"
+                "item_name": "Gripper 2",
+                "node_type": "Gripper",
+                "node_name": "Gripper 2"
             }
         },
         {
@@ -681,7 +817,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 2"
+                "item_name": "Potentiometer 2",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 2"
             }
         },
         {
@@ -694,7 +832,9 @@
                 "cycle_state_max": "12000",
                 "description": "The analog output signal of the potentiometer on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Pot"
             }
         },
         {
@@ -702,7 +842,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 2"
+                "item_name": "Load cell 2",
+                "node_type": "Sensor",
+                "node_name": "Load cell 2"
             }
         },
         {
@@ -715,14 +857,18 @@
                 "cycle_state_max": "1400",
                 "description": "The analog output signal of the load cell on the Robot 2 gripper ",
                 "item_name": "I_R02_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R02_Gripper_Load"
             }
         },
         {
             "id": 227,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 3"
+                "item_name": "Gripper 3",
+                "node_type": "Gripper",
+                "node_name": "Gripper 3"
             }
         },
         {
@@ -730,7 +876,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "item_name": "Potentiometer 3"
+                "item_name": "Potentiometer 3",
+                "node_type": "Sensor",
+                "node_name": "Potentiometer 3"
             }
         },
         {
@@ -743,7 +891,9 @@
                 "cycle_state_max": "13000",
                 "description": "The analog output signal of the potentiometer on the Robot 3 gripper ",
                 "item_name": "I_R03_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R03_Gripper_Pot"
             }
         },
         {
@@ -751,7 +901,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load cell 3"
+                "item_name": "Load cell 3",
+                "node_type": "Sensor",
+                "node_name": "Load cell 3"
             }
         },
         {
@@ -764,7 +916,9 @@
                 "cycle_state_max": "11000",
                 "description": "The analog output signal of the load cell on the Robot 3 gripper ",
                 "item_name": "I_R03_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R03_Gripper_Load"
             }
         },
         {
@@ -772,14 +926,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 233,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -787,7 +945,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "234"
             }
         },
         {
@@ -800,7 +960,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -808,7 +970,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -821,7 +985,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -829,14 +995,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 239,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -844,7 +1014,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "240"
             }
         },
         {
@@ -857,7 +1029,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -865,7 +1039,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -878,7 +1054,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -886,14 +1064,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 245,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -901,7 +1083,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "246"
             }
         },
         {
@@ -914,7 +1098,9 @@
                 "cycle_state_max": "13300",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -922,7 +1108,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -935,7 +1123,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -943,14 +1133,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 251,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -958,7 +1152,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "252"
             }
         },
         {
@@ -971,7 +1167,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -979,7 +1177,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -992,7 +1192,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1000,14 +1202,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 257,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1015,7 +1221,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "258"
             }
         },
         {
@@ -1028,7 +1236,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1036,7 +1246,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1049,7 +1261,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1057,14 +1271,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 263,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1072,7 +1290,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "264"
             }
         },
         {
@@ -1085,7 +1305,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1093,7 +1315,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1106,7 +1330,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1114,14 +1340,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 269,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1129,7 +1359,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "270"
             }
         },
         {
@@ -1142,7 +1374,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1150,7 +1384,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1163,7 +1399,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1171,14 +1409,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 275,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1186,7 +1428,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "276"
             }
         },
         {
@@ -1199,7 +1443,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1207,7 +1453,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1220,7 +1468,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1228,14 +1478,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 281,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1243,7 +1497,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "282"
             }
         },
         {
@@ -1256,7 +1512,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1264,7 +1522,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1277,7 +1537,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1285,14 +1547,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 287,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1300,7 +1566,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "288"
             }
         },
         {
@@ -1313,7 +1581,9 @@
                 "cycle_state_max": "13600",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1321,7 +1591,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1334,7 +1606,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1342,14 +1616,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 293,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1357,7 +1635,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "294"
             }
         },
         {
@@ -1370,7 +1650,9 @@
                 "cycle_state_max": "13300",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1378,7 +1660,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1391,7 +1675,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1399,14 +1685,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 299,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1414,7 +1704,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "300"
             }
         },
         {
@@ -1427,7 +1719,9 @@
                 "cycle_state_max": "13300",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1435,7 +1729,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1448,7 +1744,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         },
         {
@@ -1456,14 +1754,18 @@
             "attributes": {
                 "function": "Disassembles rocket",
                 "item_spec": "Yaskawa six-axis HC10",
-                "item_name": "Robot 4"
+                "item_name": "Robot 4",
+                "node_type": "Robot",
+                "node_name": "Robot 4"
             }
         },
         {
             "id": 305,
             "attributes": {
                 "function": "Grips the rocket body parts",
-                "item_name": "Gripper 4"
+                "item_name": "Gripper 4",
+                "node_type": "Gripper",
+                "node_name": "Gripper 4"
             }
         },
         {
@@ -1471,7 +1773,9 @@
             "attributes": {
                 "measures": "Linear measurement of how far the gripper is opened or closed",
                 "item_spec": "Sensata-BEI",
-                "name": "Potentiometer 4"
+                "name": "Potentiometer 4",
+                "node_type": "Sensor",
+                "node_name": "306"
             }
         },
         {
@@ -1484,7 +1788,9 @@
                 "cycle_state_max": "13200",
                 "description": "The analog output signal of the potentiometer on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Pot",
-                "max_value": 12000
+                "max_value": 12000,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Pot"
             }
         },
         {
@@ -1492,7 +1798,9 @@
             "attributes": {
                 "measures": "Pressure applied on the inside of the gripper",
                 "item_spec": "TE Connectivity",
-                "item_name": "Load Cell 4"
+                "item_name": "Load Cell 4",
+                "node_type": "Sensor",
+                "node_name": "Load Cell 4"
             }
         },
         {
@@ -1505,7 +1813,9 @@
                 "cycle_state_max": "NA",
                 "description": "The analog output signal of the load cell on the Robot 4 gripper ",
                 "item_name": "I_R04_Gripper_Load",
-                "max_value": 10300
+                "max_value": 10300,
+                "node_type": "Sensor_Value",
+                "node_name": "I_R04_Gripper_Load"
             }
         }
     ],

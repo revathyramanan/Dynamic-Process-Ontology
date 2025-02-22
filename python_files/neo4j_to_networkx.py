@@ -33,11 +33,37 @@ def extract_neo4j_data():
         node2 = record['m']
         rel = record['r']
 
-        # Add nodes with properties
+        # Add node1 (with type and name)
         if node1.id not in nodes:
+            # Extract the node type (label)
+            node_type = next(iter(node1.labels), 'Unknown')  # Default to 'Unknown' if no labels
+            # Determine node_name based on label
+            if 'Cycle' in node1.labels:
+                node_name = f"Cycle{node1.get('cycle_state', '')}"  # Cycle state value appended to label
+            elif 'Marker' in node1.labels:
+                node_name = node1.get('marker_name', 'Unknown')  # Marker name directly
+            else:
+                node_name = node1.get('item_name', str(node1.id))  # Default to item_name or node_id
+
             nodes[node1.id] = dict(node1.items())
+            nodes[node1.id]['node_type'] = node_type
+            nodes[node1.id]['node_name'] = node_name
+
+        # Add node2 (with type and name)
         if node2.id not in nodes:
+            # Extract the node type (label)
+            node_type = next(iter(node2.labels), 'Unknown')  # Default to 'Unknown' if no labels
+            # Determine node_name based on label
+            if 'Cycle' in node2.labels:
+                node_name = f"Cycle{node2.get('cycle_state', '')}"  # Cycle state value appended to label
+            elif 'Marker' in node2.labels:
+                node_name = node2.get('marker_name', 'Unknown')  # Marker name directly
+            else:
+                node_name = node2.get('item_name', str(node2.id))  # Default to item_name or node_id
+
             nodes[node2.id] = dict(node2.items())
+            nodes[node2.id]['node_type'] = node_type
+            nodes[node2.id]['node_name'] = node_name
 
         # Add edge with properties
         edges.append({
@@ -69,7 +95,7 @@ def neo4j_to_networkx():
 
 def save_networkx_json(G, filename="networkx_graph.json"):
     """
-    Saves the NetworkX graph in JSON format.
+    Saves the NetworkX graph in JSON format, including node type and node name.
     """
     graph_data = {
         "nodes": [
@@ -120,7 +146,7 @@ def visualize_graph(G):
     nx.draw_networkx_edges(G, pos, edgelist=G.edges(), arrowstyle='->', arrowsize=20)
 
     # Draw labels
-    labels = {node: f"{data.get('name', node)}" for node, data in G.nodes(data=True)}
+    labels = {node: f"{data.get('node_name', node)}" for node, data in G.nodes(data=True)}
     nx.draw_networkx_labels(G, pos, labels, font_size=12)
 
     plt.title("NetworkX Graph from Neo4j")
