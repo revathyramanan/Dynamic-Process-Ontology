@@ -1,4 +1,4 @@
-_time,Description,CycleState,I_R01_Gripper_Load,I_R01_Gripper_Pot,I_R02_Gripper_Load,I_R02_Gripper_Pot,I_R03_Gripper_Load,I_R03_Gripper_Pot
+_time,anomaly,CycleState,I_R01_Gripper_Load,I_R01_Gripper_Pot,I_R02_Gripper_Load,I_R02_Gripper_Pot,I_R03_Gripper_Load,I_R03_Gripper_Pot
 2023-12-11T19:59:56.545Z,"NoNose,NoBody2",1,281,11239,1321,11701,1395,2400
 2023-12-11T19:59:56.637Z,"NoNose,NoBody2",1,461,11197,1317,11687,1364,2402
 2023-12-11T19:59:56.755Z,"NoNose,NoBody2",1,437,11188,1310,11699,1359,2403

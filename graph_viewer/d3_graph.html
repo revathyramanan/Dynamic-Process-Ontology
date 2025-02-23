@@ -162,6 +162,18 @@
                 .attr("stroke-width", 1)
                 .attr("marker-end", "url(#end)");
 
+            // Add relationship labels on the links
+            const linkText = g.append("g")
+                .selectAll("text")
+                .data(graph.links)
+                .enter().append("text")
+                .attr("class", "link-label")
+                .attr("x", (d) => (d.source.x + d.target.x) / 2)
+                .attr("y", (d) => (d.source.y + d.target.y) / 2)
+                .attr("font-size", 12)
+                .attr("fill", "#333")
+                .text(d => d.relationship); // Display relationship name
+
             const node = g.append("g")
                 .selectAll("circle")
                 .data(graph.nodes)
@@ -190,6 +202,9 @@
                     .attr("y1", d => d.source.y)
                     .attr("x2", d => d.target.x)
                     .attr("y2", d => d.target.y);
+
+                linkText.attr("x", (d) => (d.source.x + d.target.x) / 2)
+                    .attr("y", (d) => (d.source.y + d.target.y) / 2);
 
                 node.attr("cx", d => d.x)
                     .attr("cy", d => d.y);
