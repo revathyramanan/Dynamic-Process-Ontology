@@ -50,12 +50,13 @@ The interactive version of the ontology can be found here - https://revathyraman
 <br>
 
 ## Applications
-### 1. User-level Explanations for Anomaly Predictions
-Currently, the ontology is integrated as a part of Neurosymbolic Multimodal Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines. 
-<!-- 
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=kg6zE9yCGlQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div> -->
+### 1. User-level Explanations for Anomaly Classification in Real-Time
+The dynamic process ontology is deployed as a part of real-time classification system at the rocket assembly testbed site. As the cell runs assembling the rocket, an anomaly classification system gathers and investigates the sensor data in real-time. When the model predicts an anomly, the reasoner is called to produce user-level explanations for the anomaly.
+
+[![Watch the video](https://img.youtube.com/vi/cKsI6zHbL_g/maxresdefault.jpg)](https://www.youtube.com/watch?v=cKsI6zHbL_g)
+
+### 2. User-level Explanations for Anomaly Predictions
+The ontology is also integrated as a part of Neurosymbolic Multimodal Fusion for Robust and Interpretable Anomaly Prediction in Assembly Pipelines. 
 
 [![Watch the video](https://img.youtube.com/vi/kg6zE9yCGlQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=kg6zE9yCGlQ)
 
